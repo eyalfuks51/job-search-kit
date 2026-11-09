@@ -130,7 +130,7 @@ When the user pastes a link or a job description:
 
   Say so whenever it matters. For important employers it can't watch, suggest the job alerts on their own site or on LinkedIn, and ask the user to paste roles they get.
 - **Failed boards.**
-  - A board that fails two runs in a row (look at `runs.jsonl` or the failed list): try `boards.py detect` on its careers page. If that finds a new token, add the new entry and disable the old one. Otherwise disable it with the reason.
+  - A board that fails two runs in a row (look at `runs.jsonl` or the failed list): try `boards.py detect` on its careers page. If that finds a new token, first disable the old entry (`disable` matches by name, so do it before adding), then add the new one under the same name. Otherwise disable it with the reason.
   - Mention it to the user only if it's an employer they named.
 - **`doctor` FIX lines:**
   - Python too old or missing → §4.

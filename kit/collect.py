@@ -208,7 +208,7 @@ def collect(only=None, workers=8, today=None):
     today_urls = {j['url_key'] for j in in_scope if j['url_key']}
     today_keys = {j['key'] for j in in_scope}
     for r in rows:  # saved roles: tell Claude they are still on the board
-        if (r['url_key'] and r['url_key'] in today_urls) or (r['key'] and r['key'] in today_keys):
+        if (r['url_key'] in today_urls) if r['url_key'] else (r['key'] and r['key'] in today_keys):  # by link when there is one
             r['last_seen'] = today
 
     written = [(j, 'new') for j in new] + [(j, 'repost') for j in reposts]

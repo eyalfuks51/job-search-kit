@@ -166,6 +166,14 @@ class Diffing(Base):
             common.write_roles = real
         self.assertEqual(self.run_collect('2026-11-09')['new'], 1)  # the retry still finds the role
 
+    def test_old_link_not_marked_on_board_after_repost(self):
+        self.feeds['acme'] = [gh('CSM', 'Tel Aviv', 1)]
+        self.run_collect('2026-11-09')
+        self.feeds['acme'] = [gh('CSM', 'Tel Aviv', 2)]
+        self.run_collect('2026-11-10')
+        old, new = self.rows()
+        self.assertEqual((old['last_seen'], new['last_seen']), ('2026-11-09', '2026-11-10'))
+
     def test_city_collision_two_rows(self):
         self.feeds['acme'] = [gh('CSM', 'Tel Aviv', 1), gh('CSM', 'Haifa', 2)]
         s = self.run_collect()
