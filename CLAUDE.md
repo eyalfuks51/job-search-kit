@@ -78,7 +78,7 @@ Requests to recognize, in Hebrew or English:
 | `roles.py list [--verdict V] [--decision D] [--titles-only] [--after-id N]` | Rows, filtered; `--titles-only` gives compact pages of 300 |
 | `boards.py detect URL` | Finds the job-board system behind a careers page or job link |
 | `boards.py check PROVIDER TOKEN` | Tests a board. Shows job count and roles in the user's area |
-| `boards.py add me/tmp/<file>.json` | Watches more employers: `[{"name","ats_provider","ats_token","careers_url"}]` |
+| `boards.py add me/tmp/<file>.json` | Watches more employers: `[{"name","ats_provider","ats_token","careers_url"}]`. Skips ones already watched, so no need to check first; `list` gives the watched count |
 | `boards.py add-pack israel-tech` | Adds the ready-made Israeli tech pack (about 290 employers) |
 | `boards.py disable NAME --reason TEXT`, `enable NAME`, `list` | Manages watched boards |
 

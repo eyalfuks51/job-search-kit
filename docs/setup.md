@@ -67,7 +67,7 @@ Approved: YYYY-MM-DD
      - Each place in every common spelling and in Hebrew.
      - Include the country, so "Israel" alone matches.
      - Keep patterns simple.
-   - **locations.exclude:** look-alikes to remove before matching. For Israel: `US-IL`, `chicago(,\s*IL\b)?`, `illinois`.
+   - **locations.exclude:** look-alikes to remove before matching. For Israel, use the five terms in the example below. They remove US-state forms of `IL` ("Chicago, IL", "WI, IL", "USA / IL").
    - **keep_unplaced_remote:** true only if the user is open to remote work. It keeps roles whose location just says "Remote" (in the Israeli pack that is about 500 extra roles, many of them US-only).
    - **priority_keywords:** broad English and Hebrew variants of the target roles and adjacent paths, as word fragments (`implement` catches implementation and implementer; `הטמע`, `מיישמ`). Aim for 15–40 terms. This decides what is skimmed and read first. It **never** hides a role, so be generous.
    - **smartrecruiters_country:** a two-letter code, only when all the user's places are in one country.
@@ -78,7 +78,7 @@ Approved: YYYY-MM-DD
 {
   "locations": {
     "include": ["israel", "ישראל", "tel.?aviv", "תל.?אביב", "herzl", "הרצליה", "ramat.?gan", "רמת.?גן", "petah", "פתח.?תקו", "\\bIL\\b", "\\bTLV\\b"],
-    "exclude": ["US-IL", "chicago(,\\s*IL\\b)?", "illinois"],
+    "exclude": ["US-IL", "chicago(,\\s*IL\\b)?", "illinois", "\\b[A-Z]{2},\\s*IL\\b", "\\bUSA?\\s*[-/,]\\s*IL\\b"],
     "keep_unplaced_remote": false
   },
   "priority_keywords": ["customer success", "onboarding", "implementation", "account manag", "הצלחת לקוח", "הטמע"],
@@ -86,7 +86,7 @@ Approved: YYYY-MM-DD
 }
 ```
 
-Include only the user's places. A user in Haifa doesn't need Herzliya, but "Israel" and "IL" stay, so country-only locations match.
+Include only the user's places. A user in Haifa doesn't need Herzliya, but "Israel" and "IL" stay, so country-only locations match. This also lets in roles in other Israeli cities ("Haifa, Israel"). Screening handles those by location (`docs/screening.md` §3).
 
 ## 5. Sources: which employers to watch
 

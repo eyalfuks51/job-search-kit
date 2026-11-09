@@ -12,6 +12,14 @@ UUID = '3f2a1b4c-1111-2222-3333-444455556666'
 
 
 class UrlKey(unittest.TestCase):
+    def test_israel_example_excludes_us_state_il(self):
+        exc = ['US-IL', r'chicago(,\s*IL\b)?', 'illinois', r'\b[A-Z]{2},\s*IL\b', r'\bUSA?\s*[-/,]\s*IL\b']
+        c = keys.compile_locations({'locations': {'include': ['israel', r'tel.?aviv', r'ramat.?gan', r'\bIL\b'], 'exclude': exc, 'keep_unplaced_remote': False}})
+        for loc in ('WI, IL Chicago US', 'USA / IL', 'Chicago, IL', 'US-IL-Chicago-MSO'):
+            self.assertEqual(keys.classify_location(loc, c), 'out', loc)
+        for loc in ('US-IL-Remote Tel Aviv, Israel', 'Tel Aviv Tel Aviv-Yafo IL', 'Ramat Gan, IL', 'IL', 'US / Tel Aviv, IL'):
+            self.assertEqual(keys.classify_location(loc, c), 'area', loc)
+
     def test_providers(self):
         cases = {
             f'https://jobs.ashbyhq.com/Acme/{UUID.upper()}?utm_source=x': f'ashby:acme/{UUID}',

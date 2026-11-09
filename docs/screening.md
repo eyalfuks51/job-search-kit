@@ -17,7 +17,7 @@ Goal: a few well-judged roles, not a long list. Every role you don't show has a 
    - **Set aside** only `other`-tier titles that are clearly another profession, e.g. backend developer for a non-developer. Give the reason as a category: `title: software engineering`, `title: hardware`, `title: sales quota role`. The kit refuses set-aside for priority and manual roles: those always get their job text read.
    - A set-aside is not deletion. It is counted in the audit line, the user can ask to see the set-aside titles (`roles.py list --verdict set-aside --titles-only`, paged with `--after-id`), and after any profile change that adds roles or fields, re-skim the set-aside titles against the new profile and move any plausible ones back with a real verdict after reading them.
      - A seniority word alone ("Senior", "Lead") is never a reason.
-     - Location is never a set-aside reason for area roles.
+     - Location is never a set-aside reason. Use the location rule in §3 instead.
 3. Record set-asides in bulk:
 
 ```json
@@ -40,6 +40,8 @@ Goal: a few well-judged roles, not a long list. Every role you don't show has a 
 | `no-fit` | A **named required** item clearly isn't met (quote it), or it hits a dealbreaker from the profile (place, hours, type of work) |
 
 **Rules:**
+- **Location.** If the location field clearly names a place outside the user's area and work arrangement (e.g. "Haifa, Israel" for someone in Tel Aviv who wants hybrid), the verdict is `no-fit` with reason "location: <place>, outside the area", without reading the text. This is allowed for any tier. If the location is vague (only "Israel", or several places), read the job text.
+- **Level.** A role below the level the user wants is `possible` or `stretch` with the level as a gap, not `no-fit`, unless the profile names it as a dealbreaker.
 - Count only what's required. "Advantage", "preferred", "nice to have", "יתרון" are not requirements. "חובה" and "must" are.
 - A degree with "or equivalent experience" is not a block.
 - Never treat the title alone as `no-fit`.
