@@ -37,7 +37,7 @@ def _public(r):
 
 
 def inbox(tier='all', limit=None, after_id=None):
-    rows = [r for r in common.read_roles() if not r['verdict']]
+    rows = [r for r in common.read_roles() if not r['verdict'] and not r['decision']]  # a decision also counts as reviewed
     by_tier = collections.Counter(r['tier'] for r in rows)
     rows.sort(key=lambda r: int(r['id']) if r['id'].isdigit() else 0)
     rows.sort(key=lambda r: r['first_seen'], reverse=True)
@@ -95,7 +95,7 @@ def _check_fields(item, where, errors):
         errors.append(f'{where}: decision skipped needs decision_reason')
 
 
-def validate(items, existing_ids):
+def validate(items, existing_ids, tiers=None):
     errors = []
     if not isinstance(items, list):
         return ['The file must contain a JSON list.']
@@ -118,6 +118,10 @@ def validate(items, existing_ids):
             bad = [_id(i) for i in ids if _id(i) not in existing_ids]
             if bad:
                 errors.append(f'{where}: no role with id ' + ', '.join(bad))
+            if item.get('verdict') == 'set-aside' and tiers:
+                read_first = [_id(i) for i in ids if tiers.get(_id(i)) in ('priority', 'manual')]
+                if read_first:  # a title-only verdict is never allowed where her own keywords or links point
+                    errors.append(f'{where}: set-aside is not allowed for priority or manual roles (read the job text): ' + ', '.join(read_first))
         else:
             errors.append(f'{where}: needs id, ids or add')
         _check_fields(item, where, errors)
@@ -148,7 +152,7 @@ def _compiled():
 def apply(items):
     rows = common.read_roles()
     by_id = _by_id(rows)
-    errors = validate(items, set(by_id))
+    errors = validate(items, set(by_id), {i: r['tier'] for i, r in by_id.items()})
     if errors:
         raise common.KitError('Nothing was changed. Fix these and retry:\n' + '\n'.join(errors))
     day, comp = today(), None
@@ -165,6 +169,11 @@ def apply(items):
         hit = next((r for r in rows if uk and r['url_key'] == uk), None)
         if hit:
             existing.append(int(hit['id']))
+            text = str(item.get('job_text') or '')
+            if text.strip() and len(text) > int(hit['jd_chars'] or 0):  # she pasted the text of a role we only had a link for
+                hit['jd_file'] = common.save_jd(hit['id'], hit['company'], hit['title'], hit['location'], hit['url'], text)
+                hit['jd_chars'] = str(len(text))
+                updated.add(hit['id'])
             if _set_fields(hit, item, day):
                 updated.add(hit['id'])
             continue
@@ -197,9 +206,12 @@ def apply_file(path):
 def summary():
     rows = common.read_roles()
     last = common.last_run()
-    on = lambda r: {'id': int(r['id']), 'company': r['company'], 'title': r['title'], 'url': r['url'], 'last_seen': r['last_seen'],
-                    'on_board_last_run': bool(last) and r['last_seen'] == last.get('date')}
-    unrev = [r for r in rows if not r['verdict']]
+    failed = {f.split(' (')[0].lower() for f in (last or {}).get('failed', [])}
+    def on(r):  # None = unknown (manual role, or its board failed in the last run)
+        known = bool(last) and r['kind'] != 'manual' and r['company'].lower() not in failed
+        return {'id': int(r['id']), 'company': r['company'], 'title': r['title'], 'url': r['url'], 'last_seen': r['last_seen'],
+                'on_board_last_run': (r['last_seen'] == last.get('date')) if known else None}
+    unrev = [r for r in rows if not r['verdict'] and not r['decision']]
     return {'total': len(rows), 'unreviewed': len(unrev),
             'unreviewed_by_tier': dict(collections.Counter(r['tier'] for r in unrev)),
             'verdicts': dict(collections.Counter(r['verdict'] for r in rows if r['verdict'])),
@@ -231,6 +243,8 @@ def main(argv=None):
     p.add_argument('--verdict', choices=list(common.VERDICTS))
     p.add_argument('--decision', choices=list(common.DECISIONS))
     p.add_argument('--limit', type=int)
+    p.add_argument('--titles-only', action='store_true', help='one compact line per role: id, tier, company, title, location')
+    p.add_argument('--after-id', type=int, default=0)
     a = ap.parse_args(argv)
     if a.cmd == 'inbox':
         limit = a.limit if a.limit is not None else (300 if a.titles_only else None)  # keep one page inside a tool output
@@ -245,7 +259,13 @@ def main(argv=None):
     elif a.cmd == 'summary':
         common.out(summary())
     else:
-        common.out(list_roles(a.verdict, a.decision, a.limit))
+        if a.titles_only:  # for re-skimming set-asides page by page
+            rows = [r for r in list_roles(a.verdict, a.decision) if r['id'].isdigit() and int(r['id']) > a.after_id]
+            page = rows[:a.limit or 300]
+            res = {'unreviewed': len(rows), 'paged': True, 'roles': page}
+            print(inbox_text(res).replace('unreviewed', 'matching', 1))
+        else:
+            common.out(list_roles(a.verdict, a.decision, a.limit))
 
 
 if __name__ == '__main__':

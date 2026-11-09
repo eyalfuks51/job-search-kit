@@ -8,7 +8,7 @@ url_key (from job-discovery sync_jobs.py; provider + job id, never the slug or t
     greenhouse       greenhouse:<id>      (gh_jid query parameter, else /jobs/<id> on a greenhouse.io host)
     anything else    other:<scheme>://<host><path>[?<sorted query without utm_*, gclid, fbclid>]
 
-role key = normalized company | normalized title (seniority words removed) | city.
+role key = normalized company | normalized title | city.
 The city is the first match of the user's own location terms, so the same title in two cities is two roles.
 A role with the same key but a new url_key is a repost.
 """
@@ -75,7 +75,7 @@ def url_key(url):
 
 def norm(s):
     s = re.sub(r'[/.\-–—()|,:]+', ' ', (s or '').lower())
-    return re.sub(r'\s+', ' ', re.sub(r'\b(senior|sr|junior|jr)\b', '', s)).strip()
+    return re.sub(r'\s+', ' ', s).strip()  # seniority words are kept: a Junior and a Senior opening are different roles
 
 
 def compile_locations(cfg):

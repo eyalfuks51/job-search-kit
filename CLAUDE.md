@@ -75,7 +75,7 @@ Requests to recognize, in Hebrew or English:
 | `roles.py show ID [ID...]` | Role details plus the job text |
 | `roles.py apply me/tmp/<file>.json` | Records verdicts, decisions and manually added roles. Checks everything; on any error nothing is written |
 | `roles.py summary` | Counts, last run, saved and applied roles (`on_board_last_run` = still listed) |
-| `roles.py list [--verdict V] [--decision D]` | Rows, filtered |
+| `roles.py list [--verdict V] [--decision D] [--titles-only] [--after-id N]` | Rows, filtered; `--titles-only` gives compact pages of 300 |
 | `boards.py detect URL` | Finds the job-board system behind a careers page or job link |
 | `boards.py check PROVIDER TOKEN` | Tests a board. Shows job count and roles in the user's area |
 | `boards.py add me/tmp/<file>.json` | Watches more employers: `[{"name","ats_provider","ats_token","careers_url"}]` |
@@ -119,6 +119,7 @@ When the user pastes a link or a job description:
 - **Decided roles never come back.** Never show a role with a decision as new again.
 - **Learning from skips.** When three or more skips share a reason (e.g. "too far", "too sales"), propose one concrete profile change in one sentence. Change `me/profile.md` and `me/search.json` only after the user says yes. Add a dated line to the profile's changelog.
 - **Changes the user asks for** ("also project management") get the same treatment: show the change, get a yes, update, log.
+- After a profile change that widens the search, re-skim the set-aside titles (`roles.py list --verdict set-aside --titles-only`, paged with `--after-id`) and read any that now fit.
 
 ## 8. Coverage honesty and problems
 

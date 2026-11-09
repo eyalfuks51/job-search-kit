@@ -113,7 +113,7 @@ def fetch_sr_text(j):
             pass
 
 
-def diff(seen, jobs, today, compiled):
+def diff(seen, jobs, today, compiled, listed=()):
     """Pure apart from updating `seen` in place. Jobs are in-scope dicts; each gets 'url_key' and 'key'.
     Returns (new, reposts, still_open): every job lands in exactly one list."""
     known = {}  # every url_key ever seen for a role, from before this run (a role listed under two URLs stays known under both)
@@ -128,6 +128,12 @@ def diff(seen, jobs, today, compiled):
         j['url_key'], j['key'] = uk, k
         if uk and uk in known:
             seen[known[uk]]['last_seen'] = today
+            still_open.append(j)
+        elif uk and uk in listed:  # already in roles.csv (added by hand): remember it, do not list it twice
+            e = seen.setdefault(k, {'first_seen': today, 'company': j['company'], 'title': j['title'], 'url_keys': []})
+            e['url_keys'] = sorted(set((e.get('url_keys') or []) + [uk]))
+            e.update(url_key=uk, last_seen=today)
+            known[uk] = k
             still_open.append(j)
         elif uk and uk in this_run:  # the same URL listed twice in one pull
             still_open.append(j)
@@ -195,9 +201,10 @@ def collect(only=None, workers=8, today=None):
             in_scope.append(j)
 
     seen = common.load_json(common.SEEN(), {})
-    new, reposts, still_open = diff(seen, in_scope, today, compiled)
-
     rows = common.read_roles()
+    listed = {r['url_key'] for r in rows if r['url_key']}  # e.g. a role she pasted before its employer was watched
+    new, reposts, still_open = diff(seen, in_scope, today, compiled, listed)
+
     today_urls = {j['url_key'] for j in in_scope if j['url_key']}
     today_keys = {j['key'] for j in in_scope}
     for r in rows:  # saved roles: tell Claude they are still on the board
@@ -229,15 +236,15 @@ def collect(only=None, workers=8, today=None):
         by_key[j['key']] = rows[-1]
         rid += 1
 
+    common.write_roles(rows)  # first: if this fails (file open in Excel), seen.json is untouched and a retry finds the same roles
     common.save_json(common.SEEN(), seen)
-    common.write_roles(rows)
     summary = {
         'date': today, 'boards': len(boards), 'failed': failed, 'empty_boards': empty, 'pulled': len(jobs),
         'in_scope': len(in_scope), 'out_of_area': sum(out_locs.values()), 'out_of_area_top': [list(x) for x in out_locs.most_common(15)],
         'unknown_location': sum(j['loc_class'] == 'unknown' for j in in_scope),
         'remote_unplaced': sum(j['loc_class'] == 'remote' for j in in_scope),
         'new': len(new), 'reposts': len(reposts), 'still_open': len(still_open), 'new_priority': new_priority,
-        'unreviewed_total': sum(1 for r in rows if not r['verdict']), 'disabled_skipped': disabled,
+        'unreviewed_total': sum(1 for r in rows if not r['verdict'] and not r['decision']), 'disabled_skipped': disabled,
     }
     common.append_run(summary)
     return summary

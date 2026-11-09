@@ -159,6 +159,36 @@ class ReadTests(Base):
         default = self.cli('inbox', '--titles-only', '--tier', 'other').splitlines()
         self.assertEqual(len(default), 1 + 5)
 
+    def test_set_aside_refused_for_priority_and_manual(self):
+        self.put(row(1, tier='priority'), row(2, tier='manual', kind='manual'), row(3))
+        with self.assertRaises(common.KitError):
+            roles.apply_file(self.file([{'ids': [1, 3], 'verdict': 'set-aside', 'reasons': 'title'}]))
+        self.assertEqual(self.by_id()['3']['verdict'], '')  # all or nothing
+        roles.apply_file(self.file([{'ids': [3], 'verdict': 'set-aside', 'reasons': 'title: hardware'}]))
+        self.assertEqual(self.by_id()['3']['verdict'], 'set-aside')
+
+    def test_pasted_text_fills_existing_role(self):
+        self.put(row(1, url='https://jobs.lever.co/acme/11111111-1111-1111-1111-111111111111',
+                     url_key='lever:acme/11111111-1111-1111-1111-111111111111'))
+        res = roles.apply_file(self.file([{'add': True, 'company': 'Acme', 'title': 'CS Manager',
+                                           'url': 'https://jobs.lever.co/acme/11111111-1111-1111-1111-111111111111', 'job_text': 'דרישות: ניסיון'}]))
+        self.assertEqual(res['existing'], [1])
+        r = self.by_id()['1']
+        self.assertEqual(r['jd_chars'], str(len('דרישות: ניסיון')))
+        self.assertIn('דרישות', roles.show([1])[0]['job_text'])
+
+    def test_decision_without_verdict_leaves_inbox(self):
+        self.put(row(1), row(2))
+        roles.apply_file(self.file([{'id': 1, 'decision': 'saved'}]))
+        self.assertEqual([r['id'] for r in roles.inbox()['roles']], ['2'])
+        self.assertEqual(roles.summary()['unreviewed'], 1)
+
+    def test_on_board_unknown_when_board_failed(self):
+        self.put(row(1, company='Acme', decision='saved', last_seen='2026-11-01'), row(2, company='Beta', decision='saved', last_seen='2026-11-01'))
+        common.append_run({'date': '2026-11-02', 'failed': ['Acme (lever): HTTPError 404']})
+        saved = {s['id']: s['on_board_last_run'] for s in roles.summary()['saved']}
+        self.assertEqual(saved, {1: None, 2: False})
+
     def test_show_truncate_and_missing(self):
         path = common.save_jd(1, 'Acme', 'T', 'L', 'u', 'x' * 100)
         self.put(row(1, jd_file=path), row(2, jd_file='nope/missing.txt'), row(3))

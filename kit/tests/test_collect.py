@@ -95,7 +95,7 @@ class Diffing(Base):
     def test_repost_new_url_same_key(self):
         self.feeds['acme'] = [gh('Customer Success Manager', 'Tel Aviv', 1)]
         self.run_collect('2026-11-09')
-        self.feeds['acme'] = [gh('Senior Customer Success Manager', 'Tel Aviv, Israel', 2)]
+        self.feeds['acme'] = [gh('Customer Success Manager', 'Tel Aviv, Israel', 2)]
         s = self.run_collect('2026-11-10')
         self.assertEqual((s['new'], s['reposts'], s['still_open']), (0, 1, 0))
         rows = self.rows()
@@ -128,11 +128,43 @@ class Diffing(Base):
         rows = self.rows()
         rows[0].update(decision='skipped', decided_on='2026-11-09', decision_reason='too far', verdict='possible')
         common.write_roles(rows)
-        self.feeds['acme'] = [gh('Senior CSM', 'Tel Aviv', 9)]
+        self.feeds['acme'] = [gh('CSM', 'Tel Aviv', 9)]
         s = self.run_collect('2026-11-12')
         self.assertEqual(s['reposts'], 1)
         note = self.rows()[-1]['note']
         self.assertEqual(note, 'repost of #1 (skipped 2026-11-09: too far); earlier verdict possible')
+
+    def test_senior_and_junior_are_different_roles(self):
+        self.feeds['acme'] = [gh('Senior CSM', 'Tel Aviv', 1)]
+        self.run_collect('2026-11-09')
+        self.feeds['acme'] = [gh('Junior CSM', 'Tel Aviv', 2)]
+        s = self.run_collect('2026-11-10')
+        self.assertEqual((s['new'], s['reposts']), (1, 0))
+        self.assertEqual(self.rows()[-1]['note'], '')
+
+    def test_role_added_by_hand_is_not_listed_twice(self):
+        r = {f: '' for f in common.ROLE_FIELDS}
+        r.update(id='1', kind='manual', tier='manual', company='Acme', title='CSM', url='https://boards.greenhouse.io/acme/jobs/5',
+                 url_key='greenhouse:5', decision='skipped', decision_reason='too far')
+        common.write_roles([r])
+        self.feeds['acme'] = [gh('CSM', 'Tel Aviv', 5)]
+        s = self.run_collect('2026-11-10')
+        self.assertEqual((s['new'], s['reposts'], s['still_open']), (0, 0, 1))
+        self.assertEqual(len(self.rows()), 1)
+        self.assertEqual(self.run_collect('2026-11-11')['still_open'], 1)
+
+    def test_blocked_roles_file_leaves_seen_untouched(self):
+        self.feeds['acme'] = [gh('CSM', 'Tel Aviv', 1)]
+        real = common.write_roles
+        def blocked(rows):
+            raise common.KitError('Cannot write roles.csv: the file is open in another program')
+        common.write_roles = blocked
+        try:
+            with self.assertRaises(common.KitError):
+                self.run_collect('2026-11-09')
+        finally:
+            common.write_roles = real
+        self.assertEqual(self.run_collect('2026-11-09')['new'], 1)  # the retry still finds the role
 
     def test_city_collision_two_rows(self):
         self.feeds['acme'] = [gh('CSM', 'Tel Aviv', 1), gh('CSM', 'Haifa', 2)]

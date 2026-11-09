@@ -6,7 +6,7 @@ Goal: a few well-judged roles, not a long list. Every role you don't show has a 
 
 1. Run `<python> kit/collect.py` with a 10-minute timeout.
 2. Note `new`, `reposts`, `failed` and `out_of_area_top`.
-3. Look at `out_of_area_top`. If a location there is clearly one of the user's places in a spelling you missed (e.g. "Tel-Aviv-Yafo", a Hebrew city name), propose adding it to `me/search.json`. It's a small fix: tell the user in one line, no approval needed. Roles excluded this run come back once the term is added only if they are posted again, so mention it.
+3. Look at `out_of_area_top`. If a location there is clearly one of the user's places in a spelling you missed (e.g. "Tel-Aviv-Yafo", a Hebrew city name), propose adding it to `me/search.json`. It's a small fix: tell the user in one line, no approval needed. Out-of-area roles are not remembered, so run `collect.py` again right after the fix and they come in as new.
 
 ## 2. Skim all titles (cheap, never skip)
 
@@ -14,7 +14,8 @@ Goal: a few well-judged roles, not a long list. Every role you don't show has a 
    - **First run with a big pack** (thousands of roles): skim all manual and priority titles, then at most about 4 pages of `other`. Stop there. The rest stay unreviewed, which is the visible backlog; say how many. Continue on later runs or when the user says "תמשיך".
 2. Read **every** title you fetch:
    - **Candidates:** every `manual` and `priority` role, every title that could plausibly fit the profile or its adjacent paths, and every vague title ("Generalist", "Rockstar", "Specialist"). **When unsure, it's a candidate.**
-   - **Set aside** only titles that are clearly another profession, e.g. backend developer for a non-developer. Give the reason as a category: `title: software engineering`, `title: hardware`, `title: sales quota role`.
+   - **Set aside** only `other`-tier titles that are clearly another profession, e.g. backend developer for a non-developer. Give the reason as a category: `title: software engineering`, `title: hardware`, `title: sales quota role`. The kit refuses set-aside for priority and manual roles: those always get their job text read.
+   - A set-aside is not deletion. It is counted in the audit line, the user can ask to see the set-aside titles (`roles.py list --verdict set-aside --titles-only`, paged with `--after-id`), and after any profile change that adds roles or fields, re-skim the set-aside titles against the new profile and move any plausible ones back with a real verdict after reading them.
      - A seniority word alone ("Senior", "Lead") is never a reason.
      - Location is never a set-aside reason for area roles.
 3. Record set-asides in bulk:
@@ -44,9 +45,10 @@ Goal: a few well-judged roles, not a long list. Every role you don't show has a 
 - Never treat the title alone as `no-fit`.
 - Check where the job is and the work arrangement against the profile. Part-time wishes are matched against what the job states.
 - Gaps are listed honestly. Never claim the user has something the profile doesn't show.
-- **Reposts:** a role marked as a repost of an earlier role that the user already decided on is not news.
-  - If the earlier one was skipped, set it aside with "repost of #N, skipped before".
-  - If it was saved or applied, mention it in one line ("X was reposted").
+- **Reposts** (`kind` = repost, `note` = "repost of #N …"): same employer, same exact title, same city, new link. It may be the same job re-listed or a second opening. Read it like any other role; the note tells you what the user decided about the earlier one.
+  - Earlier one skipped, and the job text is essentially the same: verdict `no-fit` or the earlier verdict, with reason "repost of #N, skipped before: <her reason>". Don't show it.
+  - Earlier one skipped, but the text differs materially (level, team, hours, place): judge it on its own and say "(similar to one you skipped)".
+  - Earlier one saved or applied: mention it in one line ("X was reposted").
 
 Record the verdicts in one `apply` file:
 

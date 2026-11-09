@@ -35,7 +35,7 @@ class UrlKey(unittest.TestCase):
 
 class Norm(unittest.TestCase):
     def test_norm(self):
-        self.assertEqual(keys.norm('Senior Customer-Success / Manager (Jr.)'), 'customer success manager')
+        self.assertEqual(keys.norm('Senior Customer-Success / Manager (Jr.)'), 'senior customer success manager jr')
         self.assertEqual(keys.norm(None), '')
         self.assertEqual(keys.norm('מנהל הצלחת לקוח'), 'מנהל הצלחת לקוח')
 
@@ -63,8 +63,8 @@ class Classify(unittest.TestCase):
 
 class RoleKey(unittest.TestCase):
     def test_leftmost_city(self):
-        self.assertEqual(keys.role_key('Acme Ltd.', 'Senior CS Manager', 'Haifa / Tel Aviv', C), 'acme ltd|cs manager|haifa')
-        self.assertEqual(keys.role_key('Acme Ltd.', 'Senior CS Manager', 'Tel Aviv, Haifa', C), 'acme ltd|cs manager|tel aviv')
+        self.assertEqual(keys.role_key('Acme Ltd.', 'Senior CS Manager', 'Haifa / Tel Aviv', C), 'acme ltd|senior cs manager|haifa')
+        self.assertEqual(keys.role_key('Acme Ltd.', 'Senior CS Manager', 'Tel Aviv, Haifa', C), 'acme ltd|senior cs manager|tel aviv')
 
     def test_two_cities_two_keys(self):
         a = keys.role_key('Acme', 'CSM', 'Tel Aviv', C)
