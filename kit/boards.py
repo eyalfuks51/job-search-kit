@@ -4,6 +4,7 @@
     python3 kit/boards.py check PROVIDER TOKEN
     python3 kit/boards.py add FILE.json
     python3 kit/boards.py add-pack israel-tech
+    python3 kit/boards.py replace FILE.json
     python3 kit/boards.py disable NAME --reason TEXT
     python3 kit/boards.py enable NAME
     python3 kit/boards.py list
@@ -169,18 +170,62 @@ def add_pack(name):
     return {'added': n, 'already': already, 'total': len(cos)}
 
 
+_OFF = ('disabled', 'disabled_reason', 'disabled_since')
+
+
 def set_disabled(name, reason=None):
     cos = common.load_companies()
     hit = [c for c in cos if c['name'].lower() == name.strip().lower()]
     if not hit:
         raise common.KitError(f'No employer named {name!r}. Use "list" to see the names.')
+    if reason is None and len(hit) > 1:  # enabling by name would turn on every board this employer ever had
+        raise common.KitError(f'{hit[0]["name"]!r} has {len(hit)} boards. Use "replace" to choose the one to watch.')
     for c in hit:
-        for k in ('disabled', 'disabled_reason', 'disabled_since'):
+        for k in _OFF:
             c.pop(k, None)
         if reason is not None:
             c.update(disabled=True, disabled_reason=reason, disabled_since=dt.date.today().isoformat())
     common.save_json(common.COMPANIES(), cos)
     return {'name': hit[0]['name'], 'disabled': reason is not None}
+
+
+def replace(it):
+    """Point an employer at a different board. The new board is tested first; on any failure nothing changes.
+    Then, in one write, exactly that board is active for the employer (re-enabled if it was listed before)
+    and the employer's other boards are disabled."""
+    missing = [f for f in ('name', 'ats_provider', 'ats_token') if not it.get(f)]
+    if missing:
+        raise common.KitError(f'Replacement for {it.get("name") or it!r} is missing: {", ".join(missing)}.')
+    cos = common.load_companies()
+    key = it['name'].strip().lower()
+    mine = [c for c in cos if c['name'].lower() == key]
+    if not mine:
+        raise common.KitError(f'No employer named {it["name"]!r}. Use "list" to see the names, or "add" for a new one.')
+    other = [c for c in cos if _same(it, c) and c['name'].lower() != key]
+    if other:
+        raise common.KitError(f'That board is already watched as {other[0]["name"]!r}. Nothing changed.')
+    try:
+        import collect
+        jobs = collect.pull({'name': mine[0]['name'], 'ats_provider': it['ats_provider'], 'ats_token': it['ats_token']})
+    except Exception as e:
+        why = f'{type(e).__name__} {getattr(e, "code", "") or e}'.strip()
+        raise common.KitError(f'The new board did not work ({why}). Nothing changed.')
+    today = dt.date.today().isoformat()
+    target = next((c for c in mine if _same(it, c)), None)
+    if target is None:
+        target = {'name': mine[0]['name'], 'ats_provider': it['ats_provider'], 'ats_token': it['ats_token'], 'added': today}
+        cos.append(target)
+    for k in _OFF:
+        target.pop(k, None)
+    if it.get('careers_url'):
+        target['careers_url'] = it['careers_url']
+    turned_off = []
+    for c in mine:
+        if c is not target and not c.get('disabled'):
+            c.update(disabled=True, disabled_reason=f"replaced by {it['ats_provider']} {it['ats_token']}", disabled_since=today)
+            turned_off.append(f"{c['ats_provider']} {c['ats_token']}")
+    common.save_json(common.COMPANIES(), cos)
+    return {'name': target['name'], 'active': f"{target['ats_provider']} {target['ats_token']}", 'disabled': turned_off, 'jobs': len(jobs)}
 
 
 def list_boards():
@@ -199,6 +244,7 @@ def main(argv=None):
     p.add_argument('token')
     sub.add_parser('add').add_argument('file')
     sub.add_parser('add-pack').add_argument('pack')
+    sub.add_parser('replace').add_argument('file')
     p = sub.add_parser('disable')
     p.add_argument('name')
     p.add_argument('--reason', required=True)
@@ -216,6 +262,11 @@ def main(argv=None):
         res = add(items)
     elif a.cmd == 'add-pack':
         res = add_pack(a.pack)
+    elif a.cmd == 'replace':
+        it = common.load_json(a.file)
+        if not isinstance(it, dict):
+            raise common.KitError('The file must contain one JSON object: {"name", "ats_provider", "ats_token", "careers_url"}.')
+        res = replace(it)
     elif a.cmd == 'disable':
         res = set_disabled(a.name, a.reason)
     elif a.cmd == 'enable':

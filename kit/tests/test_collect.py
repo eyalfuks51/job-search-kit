@@ -255,6 +255,22 @@ class Boards(Base):
         self.assertEqual((s['boards'], s['disabled_skipped']), (1, ['Resident']))
         self.assertFalse(any('resident' in u for u in self.calls))
 
+    def test_collects_from_replacement_board(self):
+        import boards
+        common.save_json(common.COMPANIES(), [{'name': 'Acme', 'ats_provider': 'greenhouse', 'ats_token': 'acme'},
+                                              {'name': 'Other', 'ats_provider': 'greenhouse', 'ats_token': 'other'}])
+        self.feeds['acme2'] = [gh('Analyst', 'Tel Aviv', 2)]
+        self.feeds['acme'] = [gh('CSM', 'Tel Aviv', 1)]
+        self.feeds['other'] = [gh('PM', 'Haifa', 3)]
+        boards.replace({'name': 'Acme', 'ats_provider': 'greenhouse', 'ats_token': 'acme2'})  # A -> B
+        boards.replace({'name': 'Acme', 'ats_provider': 'greenhouse', 'ats_token': 'acme'})   # B -> A, A was disabled
+        self.calls.clear()  # the validation pulls are not part of collection
+        s = self.run_collect()
+        hit = sorted(u.split('/boards/')[1].split('/')[0] for u in self.calls)
+        self.assertEqual(hit, ['acme', 'other'])
+        self.assertEqual((s['boards'], s['disabled_skipped']), (2, ['Acme']))
+        self.assertEqual(sorted((r['company'], r['title']) for r in self.rows()), [('Acme', 'CSM'), ('Other', 'PM')])
+
     def test_no_boards(self):
         common.save_json(common.COMPANIES(), [])
         with self.assertRaises(common.KitError):

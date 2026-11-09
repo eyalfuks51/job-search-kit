@@ -1,3 +1,5 @@
+import contextlib
+import io
 import json
 import os
 import shutil
@@ -198,6 +200,123 @@ class CompaniesTests(Base):
         self.assertEqual(set(common.load_companies()[0]), {'name', 'ats_provider', 'ats_token', 'added'})
         with self.assertRaises(common.KitError):
             boards.set_disabled('Nobody', 'x')
+
+
+class ReplaceTests(Base):
+    """Failed-board replacement: the destination is tested first, and exactly it stays active."""
+    OTHER = {'name': 'Other Co', 'ats_provider': 'lever', 'ats_token': 'other', 'added': '2026-01-01'}
+
+    def seed(self, *entries):
+        common.save_json(common.COMPANIES(), [dict(e) for e in entries] + [dict(self.OTHER)])
+
+    def acme(self, prov, tok, **extra):
+        return dict({'name': 'Acme', 'ats_provider': prov, 'ats_token': tok, 'added': '2026-01-01'}, **extra)
+
+    def active(self, name='acme'):
+        return [(c['ats_provider'], c['ats_token']) for c in common.load_companies() if c['name'].lower() == name and not c.get('disabled')]
+
+    def assert_other_untouched(self):
+        self.assertEqual([c for c in common.load_companies() if c['name'] == 'Other Co'], [self.OTHER])
+
+    def test_fresh_token(self):
+        self.seed(self.acme('greenhouse', 'a'))
+        self.jobs('b')
+        res = boards.replace({'name': 'acme', 'ats_provider': 'lever', 'ats_token': 'b', 'careers_url': 'https://acme.test/jobs'})
+        self.assertEqual(res, {'name': 'Acme', 'active': 'lever b', 'disabled': ['greenhouse a'], 'jobs': 1})
+        self.assertEqual(self.active(), [('lever', 'b')])
+        cos = common.load_companies()
+        a = [c for c in cos if c['ats_token'] == 'a'][0]
+        self.assertEqual((a['disabled'], a['disabled_reason']), (True, 'replaced by lever b'))
+        b = [c for c in cos if c['ats_token'] == 'b'][0]
+        self.assertEqual((b['name'], b['careers_url']), ('Acme', 'https://acme.test/jobs'))
+        self.assertEqual(len(cos), 3)
+        self.assert_other_untouched()
+
+    def test_back_to_previously_disabled_board(self):
+        self.seed(self.acme('greenhouse', 'a'))
+        self.jobs('a', 'b')
+        boards.replace({'name': 'Acme', 'ats_provider': 'lever', 'ats_token': 'b'})
+        self.pulls['A'] = self.pulls['a']  # token case may differ from the stored one
+        res = boards.replace({'name': 'Acme', 'ats_provider': 'greenhouse', 'ats_token': 'A'})
+        self.assertEqual((res['active'], res['disabled']), ('greenhouse a', ['lever b']))
+        self.assertEqual(self.active(), [('greenhouse', 'a')])
+        cos = common.load_companies()
+        self.assertEqual(len(cos), 3)  # A re-enabled in place, not added twice
+        a = [c for c in cos if c['ats_token'] == 'a'][0]
+        self.assertFalse(any(k in a for k in ('disabled', 'disabled_reason', 'disabled_since')))
+        self.assertEqual(a['added'], '2026-01-01')
+        self.assert_other_untouched()
+
+    def test_failing_destination_changes_nothing(self):
+        self.seed(self.acme('greenhouse', 'a'))
+        before = common.load_companies()
+        self.pulls['b'] = OSError('404')
+        with self.assertRaises(common.KitError) as cm:
+            boards.replace({'name': 'Acme', 'ats_provider': 'lever', 'ats_token': 'b'})
+        self.assertIn('Nothing changed', str(cm.exception))
+        self.assertEqual(common.load_companies(), before)
+        self.assertEqual(self.active(), [('greenhouse', 'a')])
+
+    def test_failing_previously_disabled_destination_changes_nothing(self):
+        self.seed(self.acme('greenhouse', 'a', disabled=True, disabled_reason='replaced by lever b', disabled_since='2026-02-01'),
+                  self.acme('lever', 'b'))
+        before = common.load_companies()
+        self.pulls['a'] = OSError('still down')
+        with self.assertRaises(common.KitError):
+            boards.replace({'name': 'Acme', 'ats_provider': 'greenhouse', 'ats_token': 'a'})
+        self.assertEqual(common.load_companies(), before)
+        self.assertEqual(self.active(), [('lever', 'b')])
+
+    def test_refusals_change_nothing(self):
+        self.seed(self.acme('greenhouse', 'a'))
+        before = common.load_companies()
+        self.jobs('other', 'x')
+        for it in ({'name': 'Acme', 'ats_provider': 'lever', 'ats_token': 'other'},   # another employer's board
+                   {'name': 'Nobody', 'ats_provider': 'lever', 'ats_token': 'x'},     # unknown employer
+                   {'name': 'Acme', 'ats_provider': 'lever'}):                         # incomplete
+            with self.assertRaises(common.KitError):
+                boards.replace(it)
+            self.assertEqual(common.load_companies(), before, it)
+
+    def test_exactly_one_active_even_from_several(self):
+        self.seed(self.acme('greenhouse', 'a'), self.acme('ashby', 'c'),
+                  self.acme('lever', 'b', disabled=True, disabled_reason='old', disabled_since='2026-02-01'))
+        self.jobs('b')
+        res = boards.replace({'name': 'Acme', 'ats_provider': 'lever', 'ats_token': 'b'})
+        self.assertEqual(self.active(), [('lever', 'b')])
+        self.assertEqual(sorted(res['disabled']), ['ashby c', 'greenhouse a'])
+        self.assertEqual(len(common.load_companies()), 4)
+        self.assert_other_untouched()
+
+    def test_already_disabled_boards_keep_their_reason(self):
+        self.seed(self.acme('greenhouse', 'a', disabled=True, disabled_reason='closed', disabled_since='2026-02-01'), self.acme('lever', 'b'))
+        self.jobs('c')
+        boards.replace({'name': 'Acme', 'ats_provider': 'ashby', 'ats_token': 'c'})
+        a = [c for c in common.load_companies() if c['ats_token'] == 'a'][0]
+        self.assertEqual((a['disabled_reason'], a['disabled_since']), ('closed', '2026-02-01'))
+        self.assertEqual(self.active(), [('ashby', 'c')])
+
+    def test_enable_by_name_refuses_when_several_boards(self):
+        self.seed(self.acme('greenhouse', 'a'))
+        self.jobs('b')
+        boards.replace({'name': 'Acme', 'ats_provider': 'lever', 'ats_token': 'b'})
+        before = common.load_companies()
+        with self.assertRaises(common.KitError) as cm:
+            boards.set_disabled('Acme')
+        self.assertIn('replace', str(cm.exception))
+        self.assertEqual(common.load_companies(), before)
+        self.assertEqual(self.active(), [('lever', 'b')])
+
+    def test_cli_reads_one_object(self):
+        self.seed(self.acme('greenhouse', 'a'))
+        self.jobs('b')
+        path = os.path.join(self.tmp, 'r.json')
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump({'name': 'Acme', 'ats_provider': 'lever', 'ats_token': 'b'}, f)
+        with contextlib.redirect_stdout(io.StringIO()) as out:
+            boards.main(['replace', path])
+        self.assertEqual(json.loads(out.getvalue())['active'], 'lever b')
+        self.assertEqual(self.active(), [('lever', 'b')])
 
 
 if __name__ == '__main__':

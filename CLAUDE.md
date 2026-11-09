@@ -80,7 +80,8 @@ Requests to recognize, in Hebrew or English:
 | `boards.py check PROVIDER TOKEN` | Tests a board. Shows job count and roles in the user's area |
 | `boards.py add me/tmp/<file>.json` | Watches more employers: `[{"name","ats_provider","ats_token","careers_url"}]`. Skips ones already watched, so no need to check first; `list` gives the watched count |
 | `boards.py add-pack israel-tech` | Adds the ready-made Israeli tech pack (about 290 employers) |
-| `boards.py disable NAME --reason TEXT`, `enable NAME`, `list` | Manages watched boards |
+| `boards.py replace me/tmp/<file>.json` | Moves one watched employer to a different board: `{"name","ats_provider","ats_token","careers_url"}`. Tests the new board first and changes nothing if it fails. Afterwards only that board is active for the employer, even if it was disabled before |
+| `boards.py disable NAME --reason TEXT`, `enable NAME`, `list` | Manages watched boards. `enable` refuses an employer with several boards; use `replace` |
 
 Shapes for the `apply` file:
 - Review: `{"id": 12, "verdict": "strong|possible|stretch|no-fit|set-aside", "reasons": "...", "gaps": "..."}`
@@ -130,7 +131,7 @@ When the user pastes a link or a job description:
 
   Say so whenever it matters. For important employers it can't watch, suggest the job alerts on their own site or on LinkedIn, and ask the user to paste roles they get.
 - **Failed boards.**
-  - A board that fails two runs in a row (look at `runs.jsonl` or the failed list): try `boards.py detect` on its careers page. If that finds a new token, first disable the old entry (`disable` matches by name, so do it before adding), then add the new one under the same name. Otherwise disable it with the reason.
+  - A board that fails two runs in a row (look at `runs.jsonl` or the failed list): try `boards.py detect` on its careers page. If that finds a token, switch to it with `boards.py replace`, using the employer's name exactly as `list` shows it (even when the token is one the employer had before). If `replace` reports the new board failed, nothing changed; disable the old board with the reason. Otherwise, if no token is found, disable it with the reason.
   - Mention it to the user only if it's an employer they named.
 - **`doctor` FIX lines:**
   - Python too old or missing → §4.
