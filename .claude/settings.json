@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 kit/*)",
+      "Bash(python kit/*)",
+      "Bash(py -3 kit/*)",
+      "Bash(python3 -m unittest *)",
+      "Bash(python -m unittest *)",
+      "Bash(py -3 -m unittest *)",
+      "Bash(python3 --version)",
+      "Bash(python --version)",
+      "Bash(py -3 --version)",
+      "PowerShell(python3 kit/*)",
+      "PowerShell(python kit/*)",
+      "PowerShell(py -3 kit/*)",
+      "PowerShell(python3 -m unittest *)",
+      "PowerShell(python -m unittest *)",
+      "PowerShell(py -3 -m unittest *)",
+      "PowerShell(python3 --version)",
+      "PowerShell(python --version)",
+      "PowerShell(py -3 --version)",
+      "Edit(/me/**)",
+      "Write(/me/**)",
+      "Read(/me/**)",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(git push*)",
+      "PowerShell(git push*)"
+    ]
+  }
+}

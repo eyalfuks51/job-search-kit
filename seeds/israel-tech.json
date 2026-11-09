@@ -1,0 +1,4567 @@
+[
+ {
+  "name": "8fig",
+  "domain": "8fig.co",
+  "ats_provider": "comeet",
+  "ats_token": "08.004::804301820104824281440201008402004020",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/08.004/positions?token=804301820104824281440201008402004020",
+  "ats_confidence": 1.0,
+  "careers_url": "https://8fig.co/careers",
+  "jobs_total": 3,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "abra",
+  "domain": "abra-it.com",
+  "ats_provider": "comeet",
+  "ats_token": "15.007::517197323A1A2E1973A2E145CA2E0A2E",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/15.007/positions?token=517197323A1A2E1973A2E145CA2E0A2E",
+  "ats_confidence": 1.0,
+  "careers_url": "https://abra-it.com/careers",
+  "jobs_total": 103,
+  "jobs_israel": 103,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "accessibe",
+  "domain": "accessibe.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "accessibe",
+  "ats_feed_url": null,
+  "careers_url": "https://accessibe.com/careers",
+  "ats_confidence": 1.0,
+  "jobs_total": 4,
+  "jobs_israel": 4,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "Aidoc Medical",
+  "domain": "aidoc.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "aidocmedical",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/aidocmedical/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/aidocmedical",
+  "jobs_total": 33,
+  "jobs_israel": 26,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Aikido Security",
+  "domain": "aikido.dev",
+  "ats_provider": "recruitee",
+  "ats_token": "aikidosecurity",
+  "ats_feed_url": "https://aikidosecurity.recruitee.com/api/offers/",
+  "ats_confidence": 1.0,
+  "careers_url": "https://aikidosecurity.recruitee.com/",
+  "jobs_total": 69,
+  "jobs_israel": 19,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Airobotics",
+  "domain": "airoboticsdrones.com",
+  "ats_provider": "comeet",
+  "ats_token": "AA.005::AA54A8335395FCD5FCD01FEF1FEF2A94154A",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/AA.005/positions?token=AA54A8335395FCD5FCD01FEF1FEF2A94154A",
+  "ats_confidence": 1.0,
+  "careers_url": "https://airoboticsdrones.com/careers",
+  "jobs_total": 19,
+  "jobs_israel": 19,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Aitech",
+  "domain": "aitechsystems.com",
+  "ats_provider": "comeet",
+  "ats_token": "88.004::88433183B9C110844204CA43318033180",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/88.004/positions?token=88433183B9C110844204CA43318033180",
+  "ats_confidence": 1.0,
+  "careers_url": "https://aitechsystems.com/careers",
+  "jobs_total": 19,
+  "jobs_israel": 9,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Alice",
+  "domain": "alice.io",
+  "ats_provider": "comeet",
+  "ats_token": "D5.005::5D51D29347D2EA828D3347DBAA2EA85D522FE",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/D5.005/positions?token=5D51D29347D2EA828D3347DBAA2EA85D522FE",
+  "ats_confidence": 1.0,
+  "careers_url": "https://alice.io/careers",
+  "jobs_total": 36,
+  "jobs_israel": 14,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "AllCloud",
+  "domain": "allcloud.io",
+  "ats_provider": "comeet",
+  "ats_token": "71.008::1785E0758A482F01785E01782F05E0",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/71.008/positions?token=1785E0758A482F01785E01782F05E0",
+  "ats_confidence": 1.0,
+  "careers_url": "https://allcloud.io/careers",
+  "jobs_total": 26,
+  "jobs_israel": 15,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Alma Lasers",
+  "domain": "almalasers.com",
+  "ats_provider": "comeet",
+  "ats_token": "67.006::7662C64163233CA1D9833CA2C6402C641632",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/67.006/positions?token=7662C64163233CA1D9833CA2C6402C641632",
+  "ats_confidence": 0.95,
+  "careers_url": "https://almalasers.com/careers",
+  "jobs_total": 32,
+  "jobs_israel": 16,
+  "sources": [
+   "title-export"
+  ]
+ },
+ {
+  "name": "Altair Semiconductor",
+  "domain": "altairsemi.com",
+  "ats_provider": "comeet",
+  "ats_token": "88.003::88333123B95110644188833B9519894C9B4418",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/88.003/positions?token=88333123B95110644188833B9519894C9B4418",
+  "ats_confidence": 0.95,
+  "careers_url": "https://altairsemi.com/careers",
+  "jobs_total": 7,
+  "jobs_israel": 5,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Apiiro",
+  "domain": "apiiro.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "apiiro",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/apiiro/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/apiiro",
+  "jobs_total": 7,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Appcharge",
+  "domain": "appcharge.com",
+  "ats_provider": "comeet",
+  "ats_token": "9A.00B::A9B4A3D35074A3D3507A9B2A6CA9BA9BA9B",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/9A.00B/positions?token=A9B4A3D35074A3D3507A9B2A6CA9BA9BA9B",
+  "ats_confidence": 1.0,
+  "careers_url": "https://appcharge.com/careers",
+  "jobs_total": 13,
+  "jobs_israel": 10,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Appdome",
+  "domain": "appdome.com",
+  "ats_provider": "comeet",
+  "ats_token": "E6.005::6E5295EDCA304314AF03043295E1B942279",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/E6.005/positions?token=6E5295EDCA304314AF03043295E1B942279",
+  "ats_confidence": 1.0,
+  "careers_url": "https://appdome.com/careers",
+  "jobs_total": 15,
+  "jobs_israel": 8,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "AppsFlyer",
+  "domain": "appsflyer.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "appsflyer",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/appsflyer/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/appsflyer",
+  "jobs_total": 50,
+  "jobs_israel": 18,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Aqua Security",
+  "domain": "aquasec.com",
+  "ats_provider": "comeet",
+  "ats_token": "91.001::191644966966644E194B3191644644",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/91.001/positions?token=191644966966644E194B3191644644",
+  "ats_confidence": 1.0,
+  "careers_url": "https://aquasec.com/careers",
+  "jobs_total": 8,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Armis",
+  "domain": "armis.com",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "armis",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/armis/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/armis",
+  "jobs_total": 2,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Artlist",
+  "domain": "artlistjobs.io",
+  "ats_provider": "comeet",
+  "ats_token": "85.003::5831B8F2C185832C182C181B8F319BB061089",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/85.003/positions?token=5831B8F2C185832C182C181B8F319BB061089",
+  "ats_confidence": 1.0,
+  "careers_url": "https://artlistjobs.io/careers",
+  "jobs_total": 13,
+  "jobs_israel": 10,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "At-Bay",
+  "domain": "at-bay.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "atbayjobs",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/atbayjobs/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/atbayjobs",
+  "jobs_total": 32,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Augury",
+  "domain": "augury.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "augury",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/augury/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/augury",
+  "jobs_total": 18,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "AutoLeadStar",
+  "domain": "autoleadstar.com",
+  "ats_provider": "comeet",
+  "ats_token": "54.002::452159A159A8A4CF61E3E229019EC26E21148",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/54.002/positions?token=452159A159A8A4CF61E3E229019EC26E21148",
+  "ats_confidence": 1.0,
+  "careers_url": "https://autoleadstar.com/careers",
+  "jobs_total": 12,
+  "jobs_israel": 8,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Automat-it",
+  "domain": "automat-it.com",
+  "ats_provider": "comeet",
+  "ats_token": "26.003::62324D20373B24D224D20373B623188C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/26.003/positions?token=62324D20373B24D224D20373B623188C",
+  "ats_confidence": 1.0,
+  "careers_url": "https://automat-it.com/careers",
+  "jobs_total": 17,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Axonius",
+  "domain": "axonius.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "axonius",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/axonius/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/axonius",
+  "jobs_total": 22,
+  "jobs_israel": 9,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Backslash Security",
+  "domain": "backslash.security",
+  "ats_provider": "comeet",
+  "ats_token": "98.004::89433783C0C22503378337889419BC33782AE4",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/98.004/positions?token=89433783C0C22503378337889419BC33782AE4",
+  "ats_confidence": 1.0,
+  "careers_url": "https://backslash.security/careers",
+  "jobs_total": 4,
+  "jobs_israel": 2,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "BigID",
+  "domain": "bigid.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "bigid",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/bigid/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/bigid",
+  "jobs_total": 7,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "BioCatch",
+  "domain": "biocatch.com",
+  "ats_provider": "lever",
+  "ats_token": "biocatch",
+  "ats_feed_url": "https://api.lever.co/v0/postings/biocatch?mode=json",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.lever.co/biocatch",
+  "jobs_total": 13,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "BIScience",
+  "domain": "biscience.com",
+  "ats_provider": "comeet",
+  "ats_token": "0A.00B::A0B464D1E213237141603C42282CA0B5058",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/0A.00B/positions?token=A0B464D1E213237141603C42282CA0B5058",
+  "ats_confidence": 1.0,
+  "careers_url": "https://biscience.com/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Akeyless",
+  "domain": "bit.ly",
+  "ats_provider": "comeet",
+  "ats_token": "27.006::7262AE41572157215721C984056E4C405623BE",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/27.006/positions?token=7262AE41572157215721C984056E4C405623BE",
+  "ats_confidence": 1.0,
+  "careers_url": "https://bit.ly/careers",
+  "jobs_total": 9,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Bizzabo Ltd",
+  "domain": "bizzabo.com",
+  "ats_provider": "comeet",
+  "ats_token": "A5.000::5A01C2032A05A0B40010E0168027605A0",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/A5.000/positions?token=5A01C2032A05A0B40010E0168027605A0",
+  "ats_confidence": 1.0,
+  "careers_url": "https://bizzabo.com/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Blink Ops",
+  "domain": "blinkops.com",
+  "ats_provider": "comeet",
+  "ats_token": "C7.004::7C42E981F101F10365C174C2E98F88F880",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/C7.004/positions?token=7C42E981F101F10365C174C2E98F88F880",
+  "ats_confidence": 1.0,
+  "careers_url": "https://blinkops.com/careers",
+  "jobs_total": 13,
+  "jobs_israel": 3,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Blockaid",
+  "domain": "blockaid.io",
+  "ats_provider": "comeet",
+  "ats_token": "69.00B::96B41ED041ED12D654C3388241ED12D654C3",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/69.00B/positions?token=96B41ED041ED12D654C3388241ED12D654C3",
+  "ats_confidence": 1.0,
+  "careers_url": "https://blockaid.io/careers",
+  "jobs_total": 12,
+  "jobs_israel": 7,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Bluewhite",
+  "domain": "bluewhite.co",
+  "ats_provider": "comeet",
+  "ats_token": "D5.00D::5DD232E0011971774232E02EE81197",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/D5.00D/positions?token=5DD232E0011971774232E02EE81197",
+  "ats_confidence": 1.0,
+  "careers_url": "https://bluewhite.co/careers",
+  "jobs_total": 3,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Brainlab",
+  "domain": "brainlab.com",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "brainlab",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/brainlab/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/brainlab",
+  "jobs_total": 46,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Bright Data",
+  "domain": "brightdata.com",
+  "ats_provider": "comeet",
+  "ats_token": "88.007::887332A3BB119951995221C199519954438110E",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/88.007/positions?token=887332A3BB119951995221C199519954438110E",
+  "ats_confidence": 1.0,
+  "careers_url": "https://brightdata.com/careers",
+  "jobs_total": 50,
+  "jobs_israel": 14,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Bringg",
+  "domain": "bringg.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "bringg",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/bringg/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/bringg",
+  "jobs_total": 4,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "BuyMe",
+  "domain": "buyme.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "B2.008::2B8D980AE01050570D98187815C0570",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/B2.008/positions?token=2B8D980AE01050570D98187815C0570&details=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://buyme.co.il/",
+  "jobs_total": 2,
+  "jobs_israel": 1,
+  "sources": [
+   "detect_ats sweep5 2026-09-10"
+  ]
+ },
+ {
+  "name": "Candex",
+  "domain": "candex.com",
+  "ats_provider": "ashby",
+  "ats_token": "candex",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/candex?includeCompensation=true",
+  "ats_confidence": 0.95,
+  "careers_url": "https://candex.com/careers",
+  "jobs_total": 17,
+  "jobs_israel": 8,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Deloitte",
+  "domain": "careers.deloitte.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "F7.00B::7FB2FE21FEC3FD847D33FD8FF603FD81FEC",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/F7.00B/positions?token=7FB2FE21FEC3FD847D33FD8FF603FD81FEC",
+  "ats_confidence": 1.0,
+  "careers_url": "https://careers.deloitte.co.il/careers",
+  "jobs_total": 70,
+  "jobs_israel": 70,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Elementor",
+  "domain": "careers.elementor.com",
+  "ats_provider": "comeet",
+  "ats_token": "A3.00F::3AF126BB0D161A3AF161A00B0D126B",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/A3.00F/positions?token=3AF126BB0D161A3AF161A00B0D126B",
+  "ats_confidence": 1.0,
+  "careers_url": "https://careers.elementor.com/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "The Jewish Agency for Israel",
+  "domain": "careers.jewishagency.org",
+  "ats_provider": "comeet",
+  "ats_token": "C8.008::8C834B03D784F0846401A588C84F0811902320",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/C8.008/positions?token=8C834B03D784F0846401A588C84F0811902320",
+  "ats_confidence": 1.0,
+  "careers_url": "https://careers.jewishagency.org/careers",
+  "jobs_total": 24,
+  "jobs_israel": 21,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Overwolf",
+  "domain": "careers.overwolf.com",
+  "ats_provider": "comeet",
+  "ats_token": "B1.001::1B16C4BD7005131B1A26F391B1",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/B1.001/positions?token=1B16C4BD7005131B1A26F391B1",
+  "ats_confidence": 1.0,
+  "careers_url": "https://careers.overwolf.com/careers",
+  "jobs_total": 11,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Plus500",
+  "domain": "careers.plus500.com",
+  "ats_provider": "comeet",
+  "ats_token": "A1.00F::1AF6BCA1AF27A1A35E86B6BC50D0",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/A1.00F/positions?token=1AF6BCA1AF27A1A35E86B6BC50D0",
+  "ats_confidence": 1.0,
+  "careers_url": "https://careers.plus500.com/careers",
+  "jobs_total": 16,
+  "jobs_israel": 16,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "riverside.fm",
+  "domain": "careers.riverside.com",
+  "ats_provider": "comeet",
+  "ats_token": "66.009::66926766692CDF00669CD22CDF133B",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/66.009/positions?token=66926766692CDF00669CD22CDF133B",
+  "ats_confidence": 1.0,
+  "careers_url": "https://careers.riverside.com/careers",
+  "jobs_total": 22,
+  "jobs_israel": 13,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Cato Networks",
+  "domain": "catonetworks.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "catonetworks",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/catonetworks/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/catonetworks",
+  "jobs_total": 99,
+  "jobs_israel": 36,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Ceragon",
+  "domain": "ceragon.com",
+  "ats_provider": "comeet",
+  "ats_token": "D3.003::3D3131FF4C01AC57A61AC51E98131FF4C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/D3.003/positions?token=3D3131FF4C01AC57A61AC51E98131FF4C",
+  "ats_confidence": 1.0,
+  "careers_url": "https://ceragon.com/careers",
+  "jobs_total": 43,
+  "jobs_israel": 15,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Ceva",
+  "domain": "ceva-ip.com",
+  "ats_provider": "comeet",
+  "ats_token": "76.005::67526BE6752D332D33026BE135F033A8",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/76.005/positions?token=67526BE6752D332D33026BE135F033A8",
+  "ats_confidence": 1.0,
+  "careers_url": "https://ceva-ip.com/careers",
+  "jobs_total": 34,
+  "jobs_israel": 17,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Chainalysis",
+  "domain": "chainalysis.com",
+  "ats_provider": "ashby",
+  "ats_token": "chainalysis-careers",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/chainalysis-careers?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/chainalysis-careers",
+  "jobs_total": 47,
+  "jobs_israel": 10,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "Chargeflow",
+  "domain": "chargeflow.io",
+  "ats_provider": "comeet",
+  "ats_token": "29.001::92136C652292DA51B6301B631B6303FE7",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/29.001/positions?token=92136C652292DA51B6301B631B6303FE7",
+  "ats_confidence": 1.0,
+  "careers_url": "https://chargeflow.io/careers",
+  "jobs_total": 11,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Checkmarx",
+  "domain": "checkmarx.com",
+  "ats_provider": "comeet",
+  "ats_token": "C0.008::C8320190002581902584B0708",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/C0.008/positions?token=C8320190002581902584B0708",
+  "ats_confidence": 1.0,
+  "careers_url": "https://checkmarx.com/careers",
+  "jobs_total": 37,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Check Point",
+  "domain": "checkpoint.com",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "CheckPointSoftwareTechnologies2",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/CheckPointSoftwareTechnologies2/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2",
+  "jobs_total": 100,
+  "jobs_israel": 25,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "CHEQ",
+  "domain": "cheq.ai",
+  "ats_provider": "comeet",
+  "ats_token": "65.005::5651AF92B280102F565565205E1594205E",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/65.005/positions?token=5651AF92B280102F565565205E1594205E",
+  "ats_confidence": 1.0,
+  "careers_url": "https://cheq.ai/careers",
+  "jobs_total": 5,
+  "jobs_israel": 3,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Claroty",
+  "domain": "claroty.com",
+  "ats_provider": "comeet",
+  "ats_token": "F2.004::2F4EC42F42F45E814AC1A945E814AC5E8",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/F2.004/positions?token=2F4EC42F42F45E814AC1A945E814AC5E8",
+  "ats_confidence": 1.0,
+  "careers_url": "https://claroty.com/careers",
+  "jobs_total": 23,
+  "jobs_israel": 9,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Classiq",
+  "domain": "classiq.io",
+  "ats_provider": "comeet",
+  "ats_token": "F7.008::7F82FD01FE03FC037C87F87F82FD017E847B8",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/F7.008/positions?token=7F82FD01FE03FC037C87F87F82FD017E847B8",
+  "ats_confidence": 1.0,
+  "careers_url": "https://classiq.io/careers",
+  "jobs_total": 27,
+  "jobs_israel": 15,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "ClickHouse",
+  "domain": "clickhouse.com",
+  "ats_provider": "ashby",
+  "ats_token": "clickhouse",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/clickhouse?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/clickhouse",
+  "jobs_total": 180,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "ClickUp",
+  "domain": "clickup.com",
+  "ats_provider": "ashby",
+  "ats_token": "clickup",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/clickup?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/clickup",
+  "jobs_total": 62,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Cloudinary",
+  "domain": "cloudinary.com",
+  "ats_provider": "lever",
+  "ats_token": "cloudinary",
+  "ats_feed_url": "https://api.lever.co/v0/postings/cloudinary?mode=json",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.lever.co/cloudinary",
+  "jobs_total": 15,
+  "jobs_israel": 6,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "CodeValue",
+  "domain": "codevalue.com",
+  "ats_provider": "comeet",
+  "ats_token": "81.009::1896249367AD189DD1C48ABFDD1189",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/81.009/positions?token=1896249367AD189DD1C48ABFDD1189",
+  "ats_confidence": 1.0,
+  "careers_url": "https://codevalue.com/careers",
+  "jobs_total": 27,
+  "jobs_israel": 27,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Cognyte",
+  "domain": "cognyte.com",
+  "ats_provider": "comeet",
+  "ats_token": "F2.009::2F9EDD2F92F911D61AC12F914CF11D62F9",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/F2.009/positions?token=2F9EDD2F92F911D61AC12F914CF11D62F9",
+  "ats_confidence": 1.0,
+  "careers_url": "https://cognyte.com/careers",
+  "jobs_total": 47,
+  "jobs_israel": 16,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "CommIT",
+  "domain": "comm-it.com",
+  "ats_provider": "comeet",
+  "ats_token": "76.008::67826D067833C0CF002D48020581368",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/76.008/positions?token=67826D067833C0CF002D48020581368",
+  "ats_confidence": 1.0,
+  "careers_url": "https://comm-it.com/careers",
+  "jobs_total": 150,
+  "jobs_israel": 60,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Connecteam",
+  "domain": "connecteam.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "connecteam",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/connecteam/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/connecteam",
+  "jobs_total": 57,
+  "jobs_israel": 19,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Continental",
+  "domain": "continental.com",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "continental",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/continental/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/continental",
+  "jobs_total": 100,
+  "jobs_israel": 7,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "converge-bio",
+  "domain": "converge-bio.com",
+  "ats_provider": "comeet",
+  "ats_token": "CA.00D::ACD4B9B40CE36016135360156680ACD6135",
+  "ats_feed_url": null,
+  "careers_url": "https://converge-bio.com/careers",
+  "ats_confidence": 1.0,
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "Convexum",
+  "domain": "convexum.com",
+  "ats_provider": "comeet",
+  "ats_token": "88.002::882330C3B8E11043B8E1986330C19864C922A8A",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/88.002/positions?token=882330C3B8E11043B8E1986330C19864C922A8A",
+  "ats_confidence": 1.0,
+  "careers_url": "https://convexum.com/careers",
+  "jobs_total": 12,
+  "jobs_israel": 12,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "copilotkit",
+  "domain": "copilotkit.ai",
+  "ats_provider": "lever",
+  "ats_token": "copilotkit",
+  "ats_feed_url": null,
+  "careers_url": "https://copilotkit.ai/careers",
+  "ats_confidence": 1.0,
+  "jobs_total": 1,
+  "jobs_israel": 0,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "Coralogix",
+  "domain": "coralogix.com",
+  "ats_provider": "comeet",
+  "ats_token": "06.004::604241801E141E1460430200604604",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/06.004/positions?token=604241801E141E1460430200604604",
+  "ats_confidence": 1.0,
+  "careers_url": "https://coralogix.com/careers",
+  "jobs_total": 51,
+  "jobs_israel": 11,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "365scores",
+  "domain": "corporate.365scores.com",
+  "ats_provider": "comeet",
+  "ats_token": "B3.006::3B6128EB2219FA019FA19FAB222166B22",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/B3.006/positions?token=3B6128EB2219FA019FA19FAB222166B22",
+  "ats_confidence": 1.0,
+  "careers_url": "https://corporate.365scores.com/careers",
+  "jobs_total": 9,
+  "jobs_israel": 8,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Cross River",
+  "domain": "crossriver.com",
+  "ats_provider": "comeet",
+  "ats_token": "C7.00F::7CF2EDA1F3C270B1F3CF9E4647270B4647270B",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/C7.00F/positions?token=7CF2EDA1F3C270B1F3CF9E4647270B4647270B",
+  "ats_confidence": 0.95,
+  "careers_url": "https://crossriver.com/careers",
+  "jobs_total": 15,
+  "jobs_israel": 15,
+  "sources": [
+   "title-export"
+  ]
+ },
+ {
+  "name": "Cyera",
+  "domain": "cyera.io",
+  "ats_provider": "comeet",
+  "ats_token": "17.008::7182A90154871823783FD838C031A802378",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/17.008/positions?token=7182A90154871823783FD838C031A802378",
+  "ats_confidence": 1.0,
+  "careers_url": "https://cyera.io/careers",
+  "jobs_total": 194,
+  "jobs_israel": 31,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Cymulate",
+  "domain": "cymulate.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "cymulate",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/cymulate/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/cymulate",
+  "jobs_total": 17,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Databricks",
+  "domain": "databricks.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "databricks",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/databricks",
+  "jobs_total": 872,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Datadog",
+  "domain": "datadoghq.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "datadog",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/datadog",
+  "jobs_total": 442,
+  "jobs_israel": 12,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Datarails",
+  "domain": "datarails.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "datarails",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/datarails/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/datarails",
+  "jobs_total": 11,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Deepdub",
+  "domain": "deepdub.ai",
+  "ats_provider": "comeet",
+  "ats_token": "E7.00C::7EC2F881FB037741FB017C4FD8FD83F60474C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/E7.00C/positions?token=7EC2F881FB037741FB017C4FD8FD83F60474C",
+  "ats_confidence": 1.0,
+  "careers_url": "https://deepdub.ai/careers",
+  "jobs_total": 34,
+  "jobs_israel": 14,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Descope",
+  "domain": "descope.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "descope",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/descope/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/descope",
+  "jobs_total": 9,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Dream",
+  "domain": "dreamgroup.com",
+  "ats_provider": "comeet",
+  "ats_token": "99.002::99242FE9921CB6042FE396C42FE132442FE",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/99.002/positions?token=99242FE9921CB6042FE396C42FE132442FE",
+  "ats_confidence": 1.0,
+  "careers_url": "https://dreamgroup.com/careers",
+  "jobs_total": 30,
+  "jobs_israel": 30,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Driivz",
+  "domain": "driivz.com",
+  "ats_provider": "comeet",
+  "ats_token": "C4.00B::4CB17F71CC2E6102B23218D02B23996",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/C4.00B/positions?token=4CB17F71CC2E6102B23218D02B23996",
+  "ats_confidence": 0.95,
+  "careers_url": "https://driivz.com/careers",
+  "jobs_total": 10,
+  "jobs_israel": 4,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "DRIVENETS",
+  "domain": "drivenets.com",
+  "ats_provider": "comeet",
+  "ats_token": "72.006::2769D81626762C4E762762C4EC4E1626",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/72.006/positions?token=2769D81626762C4E762762C4EC4E1626",
+  "ats_confidence": 1.0,
+  "careers_url": "https://drivenets.com/careers",
+  "jobs_total": 30,
+  "jobs_israel": 26,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "DRS RADA TECHNOLOGIES",
+  "domain": "drsrada.com",
+  "ats_provider": "comeet",
+  "ats_token": "73.009::379115D6F21BC81F411F41A6BDE46F2A6B",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/73.009/positions?token=379115D6F21BC81F411F41A6BDE46F2A6B",
+  "ats_confidence": 1.0,
+  "careers_url": "https://drsrada.com/careers",
+  "jobs_total": 48,
+  "jobs_israel": 48,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Dualbird",
+  "domain": "dualbird.io",
+  "ats_provider": "comeet",
+  "ats_token": "2B.00C::B2C4E344E3459602184648C5960648C648C4308",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/2B.00C/positions?token=B2C4E344E3459602184648C5960648C648C4308",
+  "ats_confidence": 1.0,
+  "careers_url": "https://dualbird.io/careers",
+  "jobs_total": 8,
+  "jobs_israel": 7,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Duda",
+  "domain": "duda.co",
+  "ats_provider": "greenhouse",
+  "ats_token": "duda",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/duda/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/duda",
+  "jobs_total": 9,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Earnix",
+  "domain": "earnix.com",
+  "ats_provider": "comeet",
+  "ats_token": "93.00B::39B1207AD1AD1736736120739B193D736",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/93.00B/positions?token=39B1207AD1AD1736736120739B193D736",
+  "ats_confidence": 1.0,
+  "careers_url": "https://earnix.com/careers",
+  "jobs_total": 12,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Elastic",
+  "domain": "elastic.co",
+  "ats_provider": "greenhouse",
+  "ats_token": "elastic",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/elastic",
+  "jobs_total": 368,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Electreon",
+  "domain": "electreon.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "electreon",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/electreon/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/electreon",
+  "jobs_total": 5,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Elementor",
+  "domain": "elementor.com",
+  "ats_provider": "comeet",
+  "ats_token": "A3.00F::3AF126BB0D161A3AF161A00B0D126B",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/A3.00F/positions?token=3AF126BB0D161A3AF161A00B0D126B",
+  "ats_confidence": 1.0,
+  "careers_url": "https://elementor.com/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Enlight Renewable Energy",
+  "domain": "enlightenergy.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "99.006::996431A9961CC2398456465646132C2FEE996",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/99.006/positions?token=996431A9961CC2398456465646132C2FEE996",
+  "ats_confidence": 1.0,
+  "careers_url": "https://enlightenergy.co.il/careers",
+  "jobs_total": 19,
+  "jobs_israel": 17,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Ermetic",
+  "domain": "ermetic.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "tenableinc",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/tenableinc/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://ermetic.com/careers",
+  "jobs_total": 37,
+  "jobs_israel": 7,
+  "sources": [
+   "curated",
+   "careers-page-detection",
+   "verified"
+  ]
+ },
+ {
+  "name": "eTeacher Group",
+  "domain": "eteachergroup.com",
+  "ats_provider": "comeet",
+  "ats_token": "E2.002::2E2E6A019F2B88E6A2E219F28A61710",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/E2.002/positions?token=2E2E6A019F2B88E6A2E219F28A61710",
+  "ats_confidence": 1.0,
+  "careers_url": "https://eteachergroup.com/careers",
+  "jobs_total": 11,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "eToro",
+  "domain": "etoro.com",
+  "ats_provider": "comeet",
+  "ats_token": "41.009::14952452466D3DB7B61495240B91",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/41.009/positions?token=14952452466D3DB7B61495240B91",
+  "ats_confidence": 1.0,
+  "careers_url": "https://etoro.com/careers",
+  "jobs_total": 25,
+  "jobs_israel": 3,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Evinced",
+  "domain": "evinced.com",
+  "ats_provider": "comeet",
+  "ats_token": "28.000::82030C028A0186041001860186038E030C030C0",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/28.000/positions?token=82030C028A0186041001860186038E030C030C0",
+  "ats_confidence": 1.0,
+  "careers_url": "https://evinced.com/careers",
+  "jobs_total": 8,
+  "jobs_israel": 3,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Exodigo",
+  "domain": "exodigo.com",
+  "ats_provider": "comeet",
+  "ats_token": "89.005::98542A398504C28391E130A391E391E2614",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/89.005/positions?token=98542A398504C28391E130A391E391E2614",
+  "ats_confidence": 1.0,
+  "careers_url": "https://exodigo.com/careers",
+  "jobs_total": 52,
+  "jobs_israel": 12,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Fetcherr",
+  "domain": "fetcherr.io",
+  "ats_provider": "comeet",
+  "ats_token": "68.006::866326432643ACA866219829FE10CC193229FE",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/68.006/positions?token=866326432643ACA866219829FE10CC193229FE",
+  "ats_confidence": 1.0,
+  "careers_url": "https://fetcherr.io/careers",
+  "jobs_total": 36,
+  "jobs_israel": 20,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Figma",
+  "domain": "figma.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "figma",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/figma",
+  "jobs_total": 157,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Finout",
+  "domain": "finout.io",
+  "ats_provider": "ashby",
+  "ats_token": "finout",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/finout?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/finout",
+  "jobs_total": 13,
+  "jobs_israel": 4,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Fireblocks",
+  "domain": "fireblocks.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "fireblocks",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/fireblocks/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/fireblocks",
+  "jobs_total": 73,
+  "jobs_israel": 13,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "firebolt",
+  "domain": "firebolt.io",
+  "ats_provider": "comeet",
+  "ats_token": "26.004::62424D80374424D824D8126C126C1EB41890",
+  "ats_feed_url": null,
+  "careers_url": "https://firebolt.io/careers",
+  "ats_confidence": 1.0,
+  "jobs_total": 3,
+  "jobs_israel": 0,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "Firefly",
+  "domain": "firefly.ai",
+  "ats_provider": "comeet",
+  "ats_token": "39.000::930372052B04980126024C024C02DF09304050",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/39.000/positions?token=930372052B04980126024C024C02DF09304050",
+  "ats_confidence": 1.0,
+  "careers_url": "https://firefly.ai/careers",
+  "jobs_total": 2,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Fiverr",
+  "domain": "fiverr.com",
+  "ats_provider": "comeet",
+  "ats_token": "60.002::62188018812631018862C4188",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/60.002/positions?token=62188018812631018862C4188",
+  "ats_confidence": 1.0,
+  "careers_url": "https://fiverr.com/jobs",
+  "jobs_total": 22,
+  "jobs_israel": 18,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Five Sigma",
+  "domain": "fivesigmalabs.com",
+  "ats_provider": "comeet",
+  "ats_token": "07.008::7082A301518015187081C2070815183138",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/07.008/positions?token=7082A301518015187081C2070815183138",
+  "ats_confidence": 1.0,
+  "careers_url": "https://fivesigmalabs.com/careers",
+  "jobs_total": 6,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Foresight Autonomous",
+  "domain": "foresightauto.com",
+  "ats_provider": "comeet",
+  "ats_token": "13.000::310F50310C4062031012606201B90310",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/13.000/positions?token=310F50310C4062031012606201B90310",
+  "ats_confidence": 1.0,
+  "careers_url": "https://foresightauto.com/careers",
+  "jobs_total": 5,
+  "jobs_israel": 5,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Forter",
+  "domain": "forter.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "forter",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/forter/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/forter",
+  "jobs_total": 37,
+  "jobs_israel": 13,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Freshworks",
+  "domain": "freshworks.com",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "freshworks",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/freshworks/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/freshworks",
+  "jobs_total": 100,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Fullpath",
+  "domain": "fullpath.com",
+  "ats_provider": "comeet",
+  "ats_token": "54.002::452159A159A8A4CF61E3E229019EC26E21148",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/54.002/positions?token=452159A159A8A4CF61E3E229019EC26E21148",
+  "ats_confidence": 1.0,
+  "careers_url": "https://fullpath.com/careers",
+  "jobs_total": 12,
+  "jobs_israel": 8,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "GeoEdge",
+  "domain": "geoedge.com",
+  "ats_provider": "comeet",
+  "ats_token": "82.00A::28AA2816DAF3C11C600A28A281450",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/82.00A/positions?token=28AA2816DAF3C11C600A28A281450",
+  "ats_confidence": 1.0,
+  "careers_url": "https://geoedge.com/careers",
+  "jobs_total": 6,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Balance",
+  "domain": "getbalance.com",
+  "ats_provider": "comeet",
+  "ats_token": "67.008::7682C70163833D81DA042A833D876842A8ED0",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/67.008/positions?token=7682C70163833D81DA042A833D876842A8ED0",
+  "ats_confidence": 1.0,
+  "careers_url": "https://getbalance.com/careers",
+  "jobs_total": 9,
+  "jobs_israel": 2,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Gett",
+  "domain": "gett.com",
+  "ats_provider": "comeet",
+  "ats_token": "A0.002::A2288A232A014432A28814432A",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/A0.002/positions?token=A2288A232A014432A28814432A",
+  "ats_confidence": 1.0,
+  "careers_url": "https://gett.com/careers",
+  "jobs_total": 13,
+  "jobs_israel": 13,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "GitLab",
+  "domain": "gitlab.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "gitlab",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/gitlab",
+  "jobs_total": 229,
+  "jobs_israel": 9,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Global-e",
+  "domain": "global-e.com",
+  "ats_provider": "comeet",
+  "ats_token": "62.002::262988131015727264C41572E4C10AE10AE",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/62.002/positions?token=262988131015727264C41572E4C10AE10AE",
+  "ats_confidence": 1.0,
+  "careers_url": "https://global-e.com/careers",
+  "jobs_total": 49,
+  "jobs_israel": 15,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Gong",
+  "domain": "gong.io",
+  "ats_provider": "greenhouse",
+  "ats_token": "gongio",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/gongio/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/gongio",
+  "jobs_total": 93,
+  "jobs_israel": 13,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Grafana Labs",
+  "domain": "grafana.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "grafanalabs",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/grafanalabs",
+  "jobs_total": 129,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Grip Security",
+  "domain": "grip.security",
+  "ats_provider": "comeet",
+  "ats_token": "A8.001::8A133C63C672B253C673C67019E311424DA9",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/A8.001/positions?token=8A133C63C672B253C673C67019E311424DA9",
+  "ats_confidence": 1.0,
+  "careers_url": "https://grip.security/",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Guardio",
+  "domain": "guard.io",
+  "ats_provider": "comeet",
+  "ats_token": "57.000::7502BE015F0249041D01D40EA03A801D40EA0",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/57.000/positions?token=7502BE015F0249041D01D40EA03A801D40EA0",
+  "ats_confidence": 1.0,
+  "careers_url": "https://guard.io/careers",
+  "jobs_total": 27,
+  "jobs_israel": 27,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Guardz",
+  "domain": "guardz.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "guardz",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/guardz/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/guardz",
+  "jobs_total": 9,
+  "jobs_israel": 3,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Healthy.io",
+  "domain": "healthy.io",
+  "ats_provider": "comeet",
+  "ats_token": "B4.004::4B417841C3804B420EC02A54E1C4B4",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/B4.004/positions?token=4B417841C3804B420EC02A54E1C4B4",
+  "ats_confidence": 1.0,
+  "careers_url": "https://healthy.io/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Hello Heart",
+  "domain": "helloheart.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "helloheart",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/helloheart/jobs?content=true",
+  "ats_confidence": 0.95,
+  "careers_url": "https://helloheart.com/careers",
+  "jobs_total": 12,
+  "jobs_israel": 4,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Houzz",
+  "domain": "houzz.com",
+  "ats_provider": "lever",
+  "ats_token": "houzz",
+  "ats_feed_url": "https://api.lever.co/v0/postings/houzz?mode=json",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.lever.co/houzz",
+  "jobs_total": 5,
+  "jobs_israel": 3,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "HUMAN Security",
+  "domain": "humansecurity.com",
+  "ats_provider": "ashby",
+  "ats_token": "human",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/human?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/human",
+  "jobs_total": 8,
+  "jobs_israel": 4,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Huuuge Games",
+  "domain": "huuugegames.com",
+  "ats_provider": "recruitee",
+  "ats_token": "huuuge",
+  "ats_feed_url": "https://huuuge.recruitee.com/api/offers/",
+  "ats_confidence": 1.0,
+  "careers_url": "https://huuugegames.com/careers",
+  "jobs_total": 7,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "careers-page-detection",
+   "verified"
+  ]
+ },
+ {
+  "name": "IATI",
+  "domain": "iati.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "38.00A::83A315C29223996399641D039963996107418AE",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/38.00A/positions?token=83A315C29223996399641D039963996107418AE",
+  "ats_confidence": 1.0,
+  "careers_url": "https://iati.co.il/company/careers",
+  "jobs_total": 4,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Ibex Medical Analytics",
+  "domain": "ibex-ai.com",
+  "ats_provider": "recruitee",
+  "ats_token": "ib1",
+  "ats_feed_url": "https://ib1.recruitee.com/api/offers/",
+  "ats_confidence": 1.0,
+  "careers_url": "https://ibex-ai.com/careers",
+  "jobs_total": 4,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "careers-page-detection",
+   "verified"
+  ]
+ },
+ {
+  "name": "Ilyon",
+  "domain": "ilyon.net",
+  "ats_provider": "comeet",
+  "ats_token": "42.00A::24A9281250DBCDBC928DBC494149A928",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/42.00A/positions?token=24A9281250DBCDBC928DBC494149A928",
+  "ats_confidence": 1.0,
+  "careers_url": "https://ilyon.net/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Imagene AI",
+  "domain": "imagene-ai.com",
+  "ats_provider": "comeet",
+  "ats_token": "D7.000::7D02EE01F402710271004650177001770",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/D7.000/positions?token=7D02EE01F402710271004650177001770",
+  "ats_confidence": 1.0,
+  "careers_url": "https://imagene-ai.com/careers",
+  "jobs_total": 3,
+  "jobs_israel": 2,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Immunai Ltd",
+  "domain": "immunai.com",
+  "ats_provider": "comeet",
+  "ats_token": "37.009::7392B5615AB1CE42B5615AB328F039C81CE4",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/37.009/positions?token=7392B5615AB1CE42B5615AB328F039C81CE4",
+  "ats_confidence": 1.0,
+  "careers_url": "https://immunai.com/careers",
+  "jobs_total": 16,
+  "jobs_israel": 11,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Infinidat",
+  "domain": "infinidat.com",
+  "ats_provider": "comeet",
+  "ats_token": "D6.003::6D328F2DA6221F221F221F221F002FC5",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/D6.003/positions?token=6D328F2DA6221F221F221F221F002FC5",
+  "ats_confidence": 1.0,
+  "careers_url": "https://infinidat.com/careers",
+  "jobs_total": 48,
+  "jobs_israel": 30,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Innovid",
+  "domain": "innovid.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "innovid",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/innovid/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/innovid",
+  "jobs_total": 11,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Innoviz Technologies",
+  "domain": "innoviz.tech",
+  "ats_provider": "comeet",
+  "ats_token": "52.004::25495012A0104C012A0104C6FCBA40",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/52.004/positions?token=25495012A0104C012A0104C6FCBA40",
+  "ats_confidence": 1.0,
+  "careers_url": "https://innoviz.tech/careers",
+  "jobs_total": 11,
+  "jobs_israel": 11,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "inshur",
+  "domain": "inshur.com",
+  "ats_provider": "ashby",
+  "ats_token": "inshur",
+  "ats_feed_url": null,
+  "careers_url": "https://inshur.com/careers",
+  "ats_confidence": 1.0,
+  "jobs_total": 8,
+  "jobs_israel": 0,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "InSightec",
+  "domain": "insightec.com",
+  "ats_provider": "comeet",
+  "ats_token": "4A.004::A4447DC2910A44148829105C6452201ECC3354",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/4A.004/positions?token=A4447DC2910A44148829105C6452201ECC3354",
+  "ats_confidence": 1.0,
+  "careers_url": "https://insightec.com/careers",
+  "jobs_total": 29,
+  "jobs_israel": 3,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "IRONSCALES",
+  "domain": "ironscales.com",
+  "ats_provider": "comeet",
+  "ats_token": "1A.007::A1746A11E453C8A285C142E3273327332730",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/1A.007/positions?token=A1746A11E453C8A285C142E3273327332730",
+  "ats_confidence": 1.0,
+  "careers_url": "https://ironscales.com/careers",
+  "jobs_total": 12,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Irregular",
+  "domain": "irregular.com",
+  "ats_provider": "ashby",
+  "ats_token": "Irregular",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/Irregular?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/Irregular",
+  "jobs_total": 9,
+  "jobs_israel": 9,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "Island",
+  "domain": "island.io",
+  "ats_provider": "comeet",
+  "ats_token": "09.00A::90A363C515A03F4601B1E2D32515A2D32",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/09.00A/positions?token=90A363C515A03F4601B1E2D32515A2D32",
+  "ats_confidence": 1.0,
+  "careers_url": "https://island.io/careers",
+  "jobs_total": 46,
+  "jobs_israel": 17,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "ג'ין טכנולוגיות",
+  "domain": "jeen.ai",
+  "ats_provider": "comeet",
+  "ats_token": "DA.008::AD84BE841104BE8AD856C02B6015B04BE84BE8",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/DA.008/positions?token=AD84BE841104BE8AD856C02B6015B04BE84BE8",
+  "ats_confidence": 0.95,
+  "careers_url": "https://jeen.ai/careers",
+  "jobs_total": 15,
+  "jobs_israel": 14,
+  "sources": [
+   "tase"
+  ]
+ },
+ {
+  "name": "JFrog",
+  "domain": "jfrog.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "jfrog",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/jfrog/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/jfrog",
+  "jobs_total": 56,
+  "jobs_israel": 22,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Keshet media group",
+  "domain": "jobs.keshet-mediagroup.com",
+  "ats_provider": "comeet",
+  "ats_token": "26.009::62924F603771314818A4127B24F631483771",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/26.009/positions?token=62924F603771314818A4127B24F631483771",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.keshet-mediagroup.com/careers",
+  "jobs_total": 23,
+  "jobs_israel": 14,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "MWDN",
+  "domain": "jobs.mwdn.com",
+  "ats_provider": "comeet",
+  "ats_token": "61.005::1655946F92CA85E9C35946F99C3165",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/61.005/positions?token=1655946F92CA85E9C35946F99C3165",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.mwdn.com/careers",
+  "jobs_total": 260,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Joonko",
+  "domain": "joonko.co",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "joonko",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/joonko/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/joonko",
+  "jobs_total": 42,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "KELA",
+  "domain": "ke-la.com",
+  "ats_provider": "comeet",
+  "ats_token": "2A.004::A2446FC1E6C512028905B44512032B45B441E6C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/2A.004/positions?token=A2446FC1E6C512028905B44512032B45B441E6C",
+  "ats_confidence": 1.0,
+  "careers_url": "https://ke-la.com/careers",
+  "jobs_total": 11,
+  "jobs_israel": 8,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Kela",
+  "domain": "kelacyber.com",
+  "ats_provider": "comeet",
+  "ats_token": "2A.004::A2446FC1E6C512028905B44512032B45B441E6C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/2A.004/positions?token=A2446FC1E6C512028905B44512032B45B441E6C",
+  "ats_confidence": 1.0,
+  "careers_url": "https://kelacyber.com/careers",
+  "jobs_total": 11,
+  "jobs_israel": 8,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Kendago",
+  "domain": "kendago.com",
+  "ats_provider": "comeet",
+  "ats_token": "49.00E::94E412201BEA2538053BE2E8653BE4122",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/49.00E/positions?token=94E412201BEA2538053BE2E8653BE4122",
+  "ats_confidence": 1.0,
+  "careers_url": "https://kendago.com/careers",
+  "jobs_total": 10,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "K Health",
+  "domain": "khealth.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "khealthcareers",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/khealthcareers/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://khealth.com/careers",
+  "jobs_total": 26,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "careers-page-detection",
+   "verified"
+  ]
+ },
+ {
+  "name": "Komodor",
+  "domain": "komodor.com",
+  "ats_provider": "comeet",
+  "ats_token": "96.005::695277ED2A020E9277E69534A81A54277E",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/96.005/positions?token=695277ED2A020E9277E69534A81A54277E",
+  "ats_confidence": 1.0,
+  "careers_url": "https://komodor.com/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "KPMG",
+  "domain": "kpmg.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "F3.007::3F713D3FDCFDC17CA3F713D3BE57EEBE5",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/F3.007/positions?token=3F713D3FDCFDC17CA3F713D3BE57EEBE5",
+  "ats_confidence": 1.0,
+  "careers_url": "https://kpmg.co.il/careers",
+  "jobs_total": 42,
+  "jobs_israel": 42,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Legit Security",
+  "domain": "legitsecurity.com",
+  "ats_provider": "comeet",
+  "ats_token": "37.004::7342B38159C159C40D41CD0073440D42404",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/37.004/positions?token=7342B38159C159C40D41CD0073440D42404",
+  "ats_confidence": 1.0,
+  "careers_url": "https://legitsecurity.com/careers",
+  "jobs_total": 9,
+  "jobs_israel": 5,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Lema AI",
+  "domain": "lema.ai",
+  "ats_provider": "comeet",
+  "ats_token": "EA.001::AE14C274146570820A34C274C274C270AE1",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/EA.001/positions?token=AE14C274146570820A34C274C274C270AE1",
+  "ats_confidence": 1.0,
+  "careers_url": "https://lema.ai/careers",
+  "jobs_total": 6,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Lemonade",
+  "domain": "lemonade.com",
+  "ats_provider": "ashby",
+  "ats_token": "lemonade",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/lemonade?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/lemonade",
+  "jobs_total": 34,
+  "jobs_israel": 23,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Lendbuzz",
+  "domain": "lendbuzz.com",
+  "ats_provider": "lever",
+  "ats_token": "lendbuzz",
+  "ats_feed_url": "https://api.lever.co/v0/postings/lendbuzz?mode=json",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.lever.co/lendbuzz",
+  "jobs_total": 61,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Lightricks",
+  "domain": "lightricks.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "lightricks",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/lightricks/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/lightricks",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Lightrun",
+  "domain": "lightrun.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "lightrun",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/lightrun/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/lightrun",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Logz.io",
+  "domain": "logz.io",
+  "ats_provider": "lever",
+  "ats_token": "logz",
+  "ats_feed_url": "https://api.lever.co/v0/postings/logz?mode=json",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.lever.co/logz",
+  "jobs_total": 2,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Loora",
+  "domain": "loora.com",
+  "ats_provider": "ashby",
+  "ats_token": "loora",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/loora?includeCompensation=true",
+  "ats_confidence": 0.95,
+  "careers_url": "https://loora.com/careers",
+  "jobs_total": 7,
+  "jobs_israel": 7,
+  "sources": [
+   "title-export"
+  ]
+ },
+ {
+  "name": "Lumana",
+  "domain": "lumana.ai",
+  "ats_provider": "ashby",
+  "ats_token": "lumana",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/lumana?includeCompensation=true",
+  "ats_confidence": 0.95,
+  "careers_url": "https://lumana.ai/careers",
+  "jobs_total": 11,
+  "jobs_israel": 5,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Madlan",
+  "domain": "madlan.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "33.00F::33F103B33F19F81D37CFC1D3716B916B9CFC",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/33.00F/positions?token=33F103B33F19F81D37CFC1D3716B916B9CFC",
+  "ats_confidence": 1.0,
+  "careers_url": "https://madlan.co.il/careers",
+  "jobs_total": 2,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "מיטרוניקס",
+  "domain": "maytronics.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "E3.008::3E81388FA0BB83E8FA0BB813881F401B58",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/E3.008/positions?token=3E81388FA0BB83E8FA0BB813881F401B58",
+  "ats_confidence": 0.95,
+  "careers_url": "https://careers.maytronics.co.il/",
+  "jobs_total": 38,
+  "jobs_israel": 27,
+  "sources": [
+   "tase"
+  ]
+ },
+ {
+  "name": "Medison Pharma",
+  "domain": "medisonpharma.com",
+  "ats_provider": "comeet",
+  "ats_token": "67.00A::76A2C7C163E33E625122C7C1DA8ED476A33E6",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/67.00A/positions?token=76A2C7C163E33E625122C7C1DA8ED476A33E6",
+  "ats_confidence": 1.0,
+  "careers_url": "https://medisonpharma.com/careers",
+  "jobs_total": 65,
+  "jobs_israel": 22,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Meitar",
+  "domain": "meitar.com",
+  "ats_provider": "comeet",
+  "ats_token": "84.003::483168F168F1B12120CD892418120C289B2418",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/84.003/positions?token=483168F168F1B12120CD892418120C289B2418",
+  "ats_confidence": 1.0,
+  "careers_url": "https://meitar.com/careers",
+  "jobs_total": 15,
+  "jobs_israel": 13,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Melio",
+  "domain": "meliopayments.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "melio",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/melio/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/melio",
+  "jobs_total": 24,
+  "jobs_israel": 8,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Ofer Jobs",
+  "domain": "melisron.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "56.00E::65E263465E1FD6394E2C9226341978394E1FD6",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/56.00E/positions?token=65E263465E1FD6394E2C9226341978394E1FD6",
+  "ats_confidence": 1.0,
+  "careers_url": "https://melisron.co.il/careers",
+  "jobs_total": 20,
+  "jobs_israel": 20,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Mend IO",
+  "domain": "mend.io",
+  "ats_provider": "ashby",
+  "ats_token": "mend-io",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/mend-io?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/mend-io",
+  "jobs_total": 9,
+  "jobs_israel": 4,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "metalbear",
+  "domain": "metalbear.com",
+  "ats_provider": "comeet",
+  "ats_token": "8A.002::A82498E348A1F860498E3F0C3F0CA820",
+  "ats_feed_url": null,
+  "careers_url": "https://metalbear.com/careers",
+  "ats_confidence": 1.0,
+  "jobs_total": 10,
+  "jobs_israel": 4,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "Minute Media",
+  "domain": "minutemedia.com",
+  "ats_provider": "comeet",
+  "ats_token": "45.00A::54A1A7225062A50FDE2F9A1FBC01FBC1528",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/45.00A/positions?token=54A1A7225062A50FDE2F9A1FBC01FBC1528",
+  "ats_confidence": 1.0,
+  "careers_url": "https://minutemedia.com/company/careers",
+  "jobs_total": 10,
+  "jobs_israel": 5,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Mitiga",
+  "domain": "mitiga.io",
+  "ats_provider": "comeet",
+  "ats_token": "26.00B::62B250262B012811ED718AC128112813158",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/26.00B/positions?token=62B250262B012811ED718AC128112813158",
+  "ats_confidence": 1.0,
+  "careers_url": "https://mitiga.io/careers",
+  "jobs_total": 4,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Mixtiles",
+  "domain": "mixtiles.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "mixtiles",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/mixtiles/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/mixtiles",
+  "jobs_total": 13,
+  "jobs_israel": 13,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Modellama",
+  "domain": "modellama.io",
+  "ats_provider": "comeet",
+  "ats_token": "26.00E::62E251462E0128A379E2514C5CC5C2B42",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/26.00E/positions?token=62E251462E0128A379E2514C5CC5C2B42",
+  "ats_confidence": 0.95,
+  "careers_url": "https://modellama.io/careers",
+  "jobs_total": 2,
+  "jobs_israel": 2,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Monday.com",
+  "domain": "monday.com",
+  "ats_provider": "ashby",
+  "ats_token": "monday.com",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/monday.com?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/monday.com",
+  "jobs_total": 49,
+  "jobs_israel": 18,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "MongoDB",
+  "domain": "mongodb.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "mongodb",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/mongodb",
+  "jobs_total": 409,
+  "jobs_israel": 7,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Moon Active",
+  "domain": "moonactive.com",
+  "ats_provider": "ashby",
+  "ats_token": "moonactive",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/moonactive?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/moonactive",
+  "jobs_total": 37,
+  "jobs_israel": 27,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Moovit",
+  "domain": "moovit.com",
+  "ats_provider": "comeet",
+  "ats_token": "63.007::36711036CE11031E9F146A1B38367A356CE",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/63.007/positions?token=36711036CE11031E9F146A1B38367A356CE",
+  "ats_confidence": 1.0,
+  "careers_url": "https://moovit.com/careers",
+  "jobs_total": 2,
+  "jobs_israel": 2,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Morphisec",
+  "domain": "morphisec.com",
+  "ats_provider": "comeet",
+  "ats_token": "65.00C::56C1B1C2B600208825F42B601B1C0AD8",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/65.00C/positions?token=56C1B1C2B600208825F42B601B1C0AD8&details=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://morphisec.com/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "detect_ats sweep5 2026-09-10"
+  ]
+ },
+ {
+  "name": "MyHeritage",
+  "domain": "myheritage.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "myheritage",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/myheritage/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/myheritage",
+  "jobs_total": 5,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Nagomi Security",
+  "domain": "nagomisecurity.com",
+  "ats_provider": "comeet",
+  "ats_token": "89.00B::98B42CD98B98B4C5855E3262C262C262C3942",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/89.00B/positions?token=98B42CD98B98B4C5855E3262C262C262C3942",
+  "ats_confidence": 1.0,
+  "careers_url": "https://nagomisecurity.com/careers",
+  "jobs_total": 3,
+  "jobs_israel": 3,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Nanit",
+  "domain": "nanit.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "nanit",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/nanit/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/nanit",
+  "jobs_total": 10,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Native",
+  "domain": "native.security",
+  "ats_provider": "comeet",
+  "ats_token": "5A.00A::A5A487629683E1C5D2A2968A5A33C214B433C2",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/5A.00A/positions?token=A5A487629683E1C5D2A2968A5A33C214B433C2",
+  "ats_confidence": 1.0,
+  "careers_url": "https://native.security/careers",
+  "jobs_total": 12,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Navina",
+  "domain": "navina.ai",
+  "ats_provider": "comeet",
+  "ats_token": "E6.00C::6EC2988DD837606EC376014C43E4C376014C4",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/E6.00C/positions?token=6EC2988DD837606EC376014C43E4C376014C4",
+  "ats_confidence": 1.0,
+  "careers_url": "https://navina.ai/careers",
+  "jobs_total": 15,
+  "jobs_israel": 15,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Ness Technologies",
+  "domain": "ness-tech.co.il",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "nesstechnologies",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/nesstechnologies/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/nesstechnologies",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Nexite",
+  "domain": "nexite.io",
+  "ats_provider": "comeet",
+  "ats_token": "37.000::7302B201590159023F040B01CC0730040B0",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/37.000/positions?token=7302B201590159023F040B01CC0730040B0",
+  "ats_confidence": 1.0,
+  "careers_url": "https://nexite.io/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "NextSilicon",
+  "domain": "nextsilicon.com",
+  "ats_provider": "comeet",
+  "ats_token": "18.007::817308A2873102E1845308A308A40B8308A205C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/18.007/positions?token=817308A2873102E1845308A308A40B8308A205C",
+  "ats_confidence": 1.0,
+  "careers_url": "https://nextsilicon.com/careers",
+  "jobs_total": 36,
+  "jobs_israel": 15,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Nexxen",
+  "domain": "nexxen.com",
+  "ats_provider": "ashby",
+  "ats_token": "nexxen",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/nexxen?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/nexxen",
+  "jobs_total": 21,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "NICE",
+  "domain": "nice.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "nice",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/nice/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/nice",
+  "jobs_total": 176,
+  "jobs_israel": 25,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Nimble",
+  "domain": "nimbleway.com",
+  "ats_provider": "comeet",
+  "ats_token": "09.00F::90F365A5187121E2D4B121E1B2D90F365A365A",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/09.00F/positions?token=90F365A5187121E2D4B121E1B2D90F365A365A",
+  "ats_confidence": 0.95,
+  "careers_url": "https://nimbleway.com/careers",
+  "jobs_total": 20,
+  "jobs_israel": 7,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Notch",
+  "domain": "notch.cx",
+  "ats_provider": "comeet",
+  "ats_token": "CA.003::AC34B5540922B0C4B5535CF35CFAC32B0C2B0C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/CA.003/positions?token=AC34B5540922B0C4B5535CF35CFAC32B0C2B0C",
+  "ats_confidence": 1.0,
+  "careers_url": "https://notch.cx/careers",
+  "jobs_total": 6,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Nym Health",
+  "domain": "nym.health",
+  "ats_provider": "comeet",
+  "ats_token": "46.005::645259E645C8A32281F59259E1F596453228",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/46.005/positions?token=645259E645C8A32281F59259E1F596453228",
+  "ats_confidence": 1.0,
+  "careers_url": "https://nym.health/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Ocean Security",
+  "domain": "ocean.security",
+  "ats_provider": "comeet",
+  "ats_token": "F9.001::9F145971DD39F127C44F883BA6597905979",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/F9.001/positions?token=9F145971DD39F127C44F883BA6597905979",
+  "ats_confidence": 1.0,
+  "careers_url": "https://ocean.security/careers",
+  "jobs_total": 10,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Okta",
+  "domain": "okta.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "okta",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/okta",
+  "jobs_total": 313,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Oligo Security",
+  "domain": "oligo.security",
+  "ats_provider": "comeet",
+  "ats_token": "5A.00B::A5B487D296C487D01F1152D852D852D8487D",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/5A.00B/positions?token=A5B487D296C487D01F1152D852D852D8487D",
+  "ats_confidence": 1.0,
+  "careers_url": "https://oligo.security/careers",
+  "jobs_total": 12,
+  "jobs_israel": 9,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "OneStep",
+  "domain": "onestep.co",
+  "ats_provider": "comeet",
+  "ats_token": "79.007::97742410552F9779774241552F25DC25DC",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/79.007/positions?token=97742410552F9779774241552F25DC25DC",
+  "ats_confidence": 0.95,
+  "careers_url": "https://onestep.co/company/careers",
+  "jobs_total": 6,
+  "jobs_israel": 6,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "ONE ZERO Digital Bank",
+  "domain": "onezerobank.com",
+  "ats_provider": "comeet",
+  "ats_token": "36.00A::63A255C63A63A18E831D063A31D063A1F22",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/36.00A/positions?token=63A255C63A63A18E831D063A31D063A1F22",
+  "ats_confidence": 1.0,
+  "careers_url": "https://onezerobank.com/careers",
+  "jobs_total": 10,
+  "jobs_israel": 10,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Optimove",
+  "domain": "optimove.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "optimove",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/optimove/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/optimove",
+  "jobs_total": 15,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Orca Security",
+  "domain": "orca.security",
+  "ats_provider": "greenhouse",
+  "ats_token": "orcasecurity",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/orcasecurity/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/orcasecurity",
+  "jobs_total": 11,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "OX Security",
+  "domain": "ox.security",
+  "ats_provider": "comeet",
+  "ats_token": "F8.006::8F635C447B035C42CCE2CCE23D83EBA35C48F6",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/F8.006/positions?token=8F635C447B035C42CCE2CCE23D83EBA35C48F6",
+  "ats_confidence": 1.0,
+  "careers_url": "https://ox.security/careers",
+  "jobs_total": 15,
+  "jobs_israel": 6,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Pagaya",
+  "domain": "pagaya.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "pagayais",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/pagayais/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/pagayais",
+  "jobs_total": 11,
+  "jobs_israel": 11,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "Palantir",
+  "domain": "palantir.com",
+  "ats_provider": "lever",
+  "ats_token": "palantir",
+  "ats_feed_url": "https://api.lever.co/v0/postings/palantir?mode=json",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.lever.co/palantir",
+  "jobs_total": 310,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "Pango",
+  "domain": "pango.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "59.002::952413E0254895295253E295237EC53E2",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/59.002/positions?token=952413E0254895295253E295237EC53E2",
+  "ats_confidence": 1.0,
+  "careers_url": "https://pango.co.il/careers",
+  "jobs_total": 8,
+  "jobs_israel": 8,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "PAPAYA",
+  "domain": "papaya.com",
+  "ats_provider": "comeet",
+  "ats_token": "46.00B::64B25C264B12E112E102C0D2C0D64B25C2",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/46.00B/positions?token=64B25C264B12E112E102C0D2C0D64B25C2",
+  "ats_confidence": 1.0,
+  "careers_url": "https://papaya.com/careers",
+  "jobs_total": 5,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Papaya Global",
+  "domain": "papayaglobal.com",
+  "ats_provider": "comeet",
+  "ats_token": "16.005::615247E02A931E6930A81E691E691E6936BD",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/16.005/positions?token=615247E02A931E6930A81E691E691E6936BD",
+  "ats_confidence": 1.0,
+  "careers_url": "https://papayaglobal.com/careers",
+  "jobs_total": 55,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Papercup",
+  "domain": "papercup.com",
+  "ats_provider": "lever",
+  "ats_token": "rws",
+  "ats_feed_url": "https://api.lever.co/v0/postings/rws?mode=json",
+  "ats_confidence": 1.0,
+  "careers_url": "https://papercup.com/careers",
+  "jobs_total": 71,
+  "jobs_israel": 1,
+  "sources": [
+   "detect_ats sweep5 2026-09-10"
+  ]
+ },
+ {
+  "name": "Parallel Wireless",
+  "domain": "parallelwireless.com",
+  "ats_provider": "lever",
+  "ats_token": "parallelwireless",
+  "ats_feed_url": "https://api.lever.co/v0/postings/parallelwireless?mode=json",
+  "ats_confidence": 0.95,
+  "careers_url": "https://parallelwireless.com/careers",
+  "jobs_total": 49,
+  "jobs_israel": 19,
+  "sources": [
+   "title-export"
+  ]
+ },
+ {
+  "name": "Partake",
+  "domain": "partake-fintech.com",
+  "ats_provider": "comeet",
+  "ats_token": "07.005::7052A1EE0A3F2D3F2D2A1E1C147051C140",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/07.005/positions?token=7052A1EE0A3F2D3F2D2A1E1C147051C140",
+  "ats_confidence": 1.0,
+  "careers_url": "https://partake-fintech.com/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Payoneer",
+  "domain": "payoneer.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "payoneer",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/payoneer/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/payoneer",
+  "jobs_total": 125,
+  "jobs_israel": 21,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Pendo",
+  "domain": "pendo.io",
+  "ats_provider": "greenhouse",
+  "ats_token": "pendo",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/pendo/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/pendo",
+  "jobs_total": 22,
+  "jobs_israel": 1,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Percepto",
+  "domain": "percepto.co",
+  "ats_provider": "comeet",
+  "ats_token": "44.000::440154015404400088019802640880",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/44.000/positions?token=440154015404400088019802640880",
+  "ats_confidence": 1.0,
+  "careers_url": "https://percepto.co/careers",
+  "jobs_total": 5,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Personetics Technologies",
+  "domain": "personetics.com",
+  "ats_provider": "comeet",
+  "ats_token": "83.00A::38A11B2A9E018C60153C714A9E38A",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/83.00A/positions?token=38A11B2A9E018C60153C714A9E38A",
+  "ats_confidence": 1.0,
+  "careers_url": "https://personetics.com/careers",
+  "jobs_total": 13,
+  "jobs_israel": 9,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Pi Security",
+  "domain": "pi.security",
+  "ats_provider": "ashby",
+  "ats_token": "pi-security",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/pi-security?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/pi-security",
+  "jobs_total": 8,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "Pipl",
+  "domain": "pipl.com",
+  "ats_provider": "comeet",
+  "ats_token": "22.008::2288A011404504504500CF01368CF0",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/22.008/positions?token=2288A011404504504500CF01368CF0",
+  "ats_confidence": 0.95,
+  "careers_url": "https://pipl.com/careers",
+  "jobs_total": 4,
+  "jobs_israel": 2,
+  "sources": [
+   "title-export"
+  ]
+ },
+ {
+  "name": "Pixellot",
+  "domain": "pixellot.tv",
+  "ats_provider": "comeet",
+  "ats_token": "BA.00B::ABB4B1D4062203155D855D8203155D815762031",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/BA.00B/positions?token=ABB4B1D4062203155D855D8203155D815762031",
+  "ats_confidence": 1.0,
+  "careers_url": "https://pixellot.tv/careers",
+  "jobs_total": 2,
+  "jobs_israel": 1,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "prettydamnquick",
+  "domain": "prettydamnquick.com",
+  "ats_provider": "comeet",
+  "ats_token": "0A.00E::A0E46621E2A3246283832464662A0E141C0",
+  "ats_feed_url": null,
+  "careers_url": "https://prettydamnquick.com/careers",
+  "ats_confidence": 1.0,
+  "jobs_total": 2,
+  "jobs_israel": 1,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "Primis",
+  "domain": "primis.tech",
+  "ats_provider": "comeet",
+  "ats_token": "33.00C::33C102C33C19E013681D1C33C13686781D1C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/33.00C/positions?token=33C102C33C19E013681D1C33C13686781D1C&details=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://primis.tech/careers",
+  "jobs_total": 16,
+  "jobs_israel": 13,
+  "sources": [
+   "detect_ats sweep5 2026-09-10"
+  ]
+ },
+ {
+  "name": "Proteantecs",
+  "domain": "proteantecs.com",
+  "ats_provider": "comeet",
+  "ats_token": "D5.00E::5DE23340029121D562912029122334",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/D5.00E/positions?token=5DE23340029121D562912029122334",
+  "ats_confidence": 1.0,
+  "careers_url": "https://proteantecs.com/careers",
+  "jobs_total": 16,
+  "jobs_israel": 9,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Qmarkets",
+  "domain": "qmarkets.net",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "qmarkets",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/qmarkets/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/qmarkets",
+  "jobs_total": 2,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Qodo",
+  "domain": "qodo.ai",
+  "ats_provider": "comeet",
+  "ats_token": "B8.00B::8BB34623D1D45D8346203D1D08BB8BB",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/B8.00B/positions?token=8BB34623D1D45D8346203D1D08BB8BB",
+  "ats_confidence": 1.0,
+  "careers_url": "https://qodo.ai/careers",
+  "jobs_total": 9,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Quantum Machines",
+  "domain": "quantum-machines.co",
+  "ats_provider": "comeet",
+  "ats_token": "D6.000::6D028E0DA022106D01470221036803D502210",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/D6.000/positions?token=6D028E0DA022106D01470221036803D502210",
+  "ats_confidence": 1.0,
+  "careers_url": "https://quantum-machines.co/careers",
+  "jobs_total": 50,
+  "jobs_israel": 17,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Rapyd",
+  "domain": "rapyd.net",
+  "ats_provider": "comeet",
+  "ats_token": "73.00E::37E11766FC1F6E11761F6E6FC01BF06FC",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/73.00E/positions?token=37E11766FC1F6E11761F6E6FC01BF06FC",
+  "ats_confidence": 1.0,
+  "careers_url": "https://rapyd.net/careers",
+  "jobs_total": 29,
+  "jobs_israel": 13,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Reco",
+  "domain": "reco.ai",
+  "ats_provider": "comeet",
+  "ats_token": "3A.00D::A3D47AB28F405C2505C2551E8333151E8",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/3A.00D/positions?token=A3D47AB28F405C2505C2551E8333151E8",
+  "ats_confidence": 1.0,
+  "careers_url": "https://reco.ai/careers",
+  "jobs_total": 12,
+  "jobs_israel": 4,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Reflectiz",
+  "domain": "reflectiz.com",
+  "ats_provider": "comeet",
+  "ats_token": "CA.008::AC84B7840B035E82058AC8564035E856402058",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/CA.008/positions?token=AC84B7840B035E82058AC8564035E856402058&details=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://reflectiz.com/careers",
+  "jobs_total": 4,
+  "jobs_israel": 2,
+  "sources": [
+   "detect_ats sweep5 2026-09-10"
+  ]
+ },
+ {
+  "name": "remedio",
+  "domain": "remedio.io",
+  "ats_provider": "comeet",
+  "ats_token": "CA.000::AC04B4040802B0035C04B4035C0AC035C060C0",
+  "ats_feed_url": null,
+  "careers_url": "https://remedio.io/careers",
+  "ats_confidence": 1.0,
+  "jobs_total": 12,
+  "jobs_israel": 12,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "Resident",
+  "domain": "residenthome.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "residenthome",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/residenthome/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/residenthome",
+  "jobs_total": 14,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ],
+  "disabled": true,
+  "disabled_reason": "Greenhouse board returns 404 (no live board); excluded from daily collection so runs are not partial",
+  "disabled_since": "2026-11-04"
+ },
+ {
+  "name": "Retym, Inc",
+  "domain": "retym.com",
+  "ats_provider": "comeet",
+  "ats_token": "C6.003::6C32892D861B0C1B0C28926C336183CDB3618",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/C6.003/positions?token=6C32892D861B0C1B0C28926C336183CDB3618",
+  "ats_confidence": 0.95,
+  "careers_url": "https://retym.com/careers",
+  "jobs_total": 36,
+  "jobs_israel": 15,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Via",
+  "domain": "ridewithvia.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "via",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/via/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/via",
+  "jobs_total": 154,
+  "jobs_israel": 13,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Riskified",
+  "domain": "riskified.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "riskified",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/riskified/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/riskified",
+  "jobs_total": 27,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Riverside FM",
+  "domain": "riverside.fm",
+  "ats_provider": "comeet",
+  "ats_token": "66.009::66926766692CDF00669CD22CDF133B",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/66.009/positions?token=66926766692CDF00669CD22CDF133B&details=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://riverside.fm/careers",
+  "jobs_total": 22,
+  "jobs_israel": 14,
+  "sources": [
+   "detect_ats sweep5 2026-09-10"
+  ]
+ },
+ {
+  "name": "Rounds",
+  "domain": "rounds.com",
+  "ats_provider": "comeet",
+  "ats_token": "59.005::95541530255453FD2EA953FD95537FE4AA8",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/59.005/positions?token=95541530255453FD2EA953FD95537FE4AA8",
+  "ats_confidence": 1.0,
+  "careers_url": "https://rounds.com/careers",
+  "jobs_total": 9,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "SafeBreach",
+  "domain": "safebreach.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "safebreach",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/safebreach/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/safebreach",
+  "jobs_total": 6,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Salt Security",
+  "domain": "salt.security",
+  "ats_provider": "greenhouse",
+  "ats_token": "saltsecurity",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/saltsecurity/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/saltsecurity",
+  "jobs_total": 12,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "ScaleOps",
+  "domain": "scaleops.com",
+  "ats_provider": "comeet",
+  "ats_token": "99.003::99343059931CB999339721CB9264C1CB9993",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/99.003/positions?token=99343059931CB999339721CB9264C1CB9993",
+  "ats_confidence": 1.0,
+  "careers_url": "https://scaleops.com/careers",
+  "jobs_total": 53,
+  "jobs_israel": 30,
+  "sources": [
+   "ats-token-bruteforce",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Scodix",
+  "domain": "scodix.com",
+  "ats_provider": "comeet",
+  "ats_token": "77.00D::77D2CEE16773BE8436525711677436503BE8",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/77.00D/positions?token=77D2CEE16773BE8436525711677436503BE8",
+  "ats_confidence": 1.0,
+  "careers_url": "https://scodix.com/careers",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "ScyllaDB",
+  "domain": "scylladb.com",
+  "ats_provider": "comeet",
+  "ats_token": "E4.006::4E6187E1D64224A0013984E60187E",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/E4.006/positions?token=4E6187E1D64224A0013984E60187E",
+  "ats_confidence": 1.0,
+  "careers_url": "https://scylladb.com/careers",
+  "jobs_total": 7,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "SearchApi",
+  "domain": "searchapi.io",
+  "ats_provider": "ashby",
+  "ats_token": "searchapi",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/searchapi?includeCompensation=true",
+  "ats_confidence": 0.95,
+  "careers_url": "https://searchapi.io/careers",
+  "jobs_total": 12,
+  "jobs_israel": 12,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Second Nature",
+  "domain": "secondnature.ai",
+  "ats_provider": "comeet",
+  "ats_token": "FA.00C::AFC4CE44CE4AFC20F4AFC36EC57E057E057E0",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/FA.00C/positions?token=AFC4CE44CE4AFC20F4AFC36EC57E057E057E0&details=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://secondnature.ai/careers",
+  "jobs_total": 4,
+  "jobs_israel": 4,
+  "sources": [
+   "detect_ats sweep5 2026-09-10"
+  ]
+ },
+ {
+  "name": "Semperis",
+  "domain": "semperis.com",
+  "ats_provider": "ashby",
+  "ats_token": "semperis",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/semperis?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/semperis",
+  "jobs_total": 29,
+  "jobs_israel": 10,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Sensi.AI",
+  "domain": "sensi.ai",
+  "ats_provider": "comeet",
+  "ats_token": "E7.00F::7EF2F9A1FBC3F78017CD7EFFDE1FBC3789",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/E7.00F/positions?token=7EF2F9A1FBC3F78017CD7EFFDE1FBC3789",
+  "ats_confidence": 1.0,
+  "careers_url": "https://sensi.ai/careers",
+  "jobs_total": 16,
+  "jobs_israel": 6,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Sentrycs",
+  "domain": "sentrycs.com",
+  "ats_provider": "comeet",
+  "ats_token": "88.002::882330C3B8E11043B8E1986330C19864C922A8A",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/88.002/positions?token=882330C3B8E11043B8E1986330C19864C922A8A",
+  "ats_confidence": 1.0,
+  "careers_url": "https://sentrycs.com/careers",
+  "jobs_total": 12,
+  "jobs_israel": 12,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "ServiceNow",
+  "domain": "servicenow.com",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "servicenow",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/servicenow/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/servicenow",
+  "jobs_total": 100,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Silverfort",
+  "domain": "silverfort.com",
+  "ats_provider": "comeet",
+  "ats_token": "54.007::45715B315B38AE22B8D051A0A457D051E61",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/54.007/positions?token=45715B315B38AE22B8D051A0A457D051E61",
+  "ats_confidence": 1.0,
+  "careers_url": "https://silverfort.com/careers",
+  "jobs_total": 29,
+  "jobs_israel": 11,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Similarweb",
+  "domain": "similarweb.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "similarweb",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/similarweb/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/similarweb",
+  "jobs_total": 64,
+  "jobs_israel": 28,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Singular",
+  "domain": "singular.net",
+  "ats_provider": "ashby",
+  "ats_token": "singular",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/singular?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/singular",
+  "jobs_total": 18,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Sisense",
+  "domain": "sisense.com",
+  "ats_provider": "ashby",
+  "ats_token": "sisense",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/sisense?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/sisense",
+  "jobs_total": 8,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Skapion",
+  "domain": "skapion.com",
+  "ats_provider": "comeet",
+  "ats_token": "2B.00F::B2F4E494E4964A7165E64A72CBC37EB218D5978",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/2B.00F/positions?token=B2F4E494E4964A7165E64A72CBC37EB218D5978",
+  "ats_confidence": 0.95,
+  "careers_url": "https://skapion.com/careers",
+  "jobs_total": 9,
+  "jobs_israel": 9,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "SMARTSHOOTER",
+  "domain": "smart-shooter.com",
+  "ats_provider": "comeet",
+  "ats_token": "0B.00A::B0A4D464D46211EB0A4D46635A635AB0A211E",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/0B.00A/positions?token=B0A4D464D46211EB0A4D46635A635AB0A211E",
+  "ats_confidence": 0.95,
+  "careers_url": "https://smart-shooter.com/careers",
+  "jobs_total": 8,
+  "jobs_israel": 8,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Snappy",
+  "domain": "snappy.com",
+  "ats_provider": "ashby",
+  "ats_token": "snappy",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/snappy?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/snappy",
+  "jobs_total": 5,
+  "jobs_israel": 2,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Snowflake",
+  "domain": "snowflake.com",
+  "ats_provider": "ashby",
+  "ats_token": "snowflake",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/snowflake?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/snowflake",
+  "jobs_total": 371,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "spacial",
+  "domain": "spacial.io",
+  "ats_provider": "ashby",
+  "ats_token": "spacial",
+  "ats_feed_url": null,
+  "careers_url": "https://spacial.io/careers",
+  "ats_confidence": 1.0,
+  "jobs_total": 6,
+  "jobs_israel": 1,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "Speechify",
+  "domain": "speechify.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "speechify",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/speechify/jobs?content=true",
+  "ats_confidence": 0.95,
+  "careers_url": "https://speechify.com/careers",
+  "jobs_total": 1080,
+  "jobs_israel": 12,
+  "sources": [
+   "title-export"
+  ]
+ },
+ {
+  "name": "Spinomenal",
+  "domain": "spinomenal.com",
+  "ats_provider": "comeet",
+  "ats_token": "99.008::998432899826602FF826601CC8565813301CC8",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/99.008/positions?token=998432899826602FF826601CC8565813301CC8",
+  "ats_confidence": 0.95,
+  "careers_url": "https://spinomenal.com/careers",
+  "jobs_total": 7,
+  "jobs_israel": 7,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "SuperPlay",
+  "domain": "superplay.co",
+  "ats_provider": "comeet",
+  "ats_token": "28.003::82330D228AF208C208C493B30D2208C38F538F5",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/28.003/positions?token=82330D228AF208C208C493B30D2208C38F538F5",
+  "ats_confidence": 1.0,
+  "careers_url": "https://superplay.co/careers",
+  "jobs_total": 18,
+  "jobs_israel": 15,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Surecomp",
+  "domain": "surecomp.com",
+  "ats_provider": "comeet",
+  "ats_token": "24.00E::42E14E610B8259E217021701D420014E6",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/24.00E/positions?token=42E14E610B8259E217021701D420014E6",
+  "ats_confidence": 1.0,
+  "careers_url": "https://surecomp.com/careers",
+  "jobs_total": 7,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Sweet Security",
+  "domain": "sweet.security",
+  "ats_provider": "greenhouse",
+  "ats_token": "sweetsecurity",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/sweetsecurity/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/sweetsecurity",
+  "jobs_total": 4,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Sygnia",
+  "domain": "sygnia.co",
+  "ats_provider": "comeet",
+  "ats_token": "78.00A::87A32DC3B5687A196E2A6210F43B5610F43B56",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/78.00A/positions?token=87A32DC3B5687A196E2A6210F43B5610F43B56",
+  "ats_confidence": 1.0,
+  "careers_url": "https://sygnia.co/careers",
+  "jobs_total": 13,
+  "jobs_israel": 8,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "SysAid",
+  "domain": "sysaid.com",
+  "ats_provider": "comeet",
+  "ats_token": "43.00A::34A107269434A069401D9A10721A50",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/43.00A/positions?token=34A107269434A069401D9A10721A50",
+  "ats_confidence": 1.0,
+  "careers_url": "https://sysaid.com/careers",
+  "jobs_total": 12,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Taboola",
+  "domain": "taboola.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "taboola",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/taboola/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/taboola",
+  "jobs_total": 86,
+  "jobs_israel": 24,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Tailor Brands",
+  "domain": "tailorbrands.com",
+  "ats_provider": "comeet",
+  "ats_token": "94.009::49916FD16FD24C89320DCB296116FD2961",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/94.009/positions?token=49916FD16FD24C89320DCB296116FD2961",
+  "ats_confidence": 0.95,
+  "careers_url": "https://tailorbrands.com/careers",
+  "jobs_total": 8,
+  "jobs_israel": 8,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Team8",
+  "domain": "team8.vc",
+  "ats_provider": "comeet",
+  "ats_token": "61.003::16358C6EF2C61631639B558C0429",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/61.003/positions?token=16358C6EF2C61631639B558C0429",
+  "ats_confidence": 1.0,
+  "careers_url": "https://team8.vc/careers",
+  "jobs_total": 58,
+  "jobs_israel": 42,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Tenable",
+  "domain": "tenable.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "tenableinc",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/tenableinc/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://tenable.com/careers",
+  "jobs_total": 39,
+  "jobs_israel": 7,
+  "sources": [
+   "detect_ats sweep5 2026-09-10"
+  ]
+ },
+ {
+  "name": "Tenengroup Ltd.",
+  "domain": "tenengroup.com",
+  "ats_provider": "comeet",
+  "ats_token": "93.00C::39C120CAD4AD4120C120C120C00207C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/93.00C/positions?token=39C120CAD4AD4120C120C120C00207C",
+  "ats_confidence": 0.95,
+  "careers_url": "https://tenengroup.com/careers",
+  "jobs_total": 8,
+  "jobs_israel": 8,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "טופ גאם",
+  "domain": "tgum.com",
+  "ats_provider": "comeet",
+  "ats_token": "E9.00A::9EA45661DBE013D4593A027A8027A8",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/E9.00A/positions?token=9EA45661DBE013D4593A027A8027A8",
+  "ats_confidence": 0.95,
+  "careers_url": "https://tgum.com/careers",
+  "jobs_total": 13,
+  "jobs_israel": 11,
+  "sources": [
+   "tase"
+  ]
+ },
+ {
+  "name": "The Trade Desk",
+  "domain": "thetradedesk.com",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "tradedesk",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/tradedesk/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/tradedesk",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Tikal",
+  "domain": "tikalk.com",
+  "ats_provider": "comeet",
+  "ats_token": "68.00C::86C32883288436021B086C86C3AF486C4360",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/68.00C/positions?token=86C32883288436021B086C86C3AF486C4360",
+  "ats_confidence": 0.95,
+  "careers_url": "https://tikalk.com/careers",
+  "jobs_total": 6,
+  "jobs_israel": 5,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Token Security",
+  "domain": "token.security",
+  "ats_provider": "greenhouse",
+  "ats_token": "tokensecurity",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/tokensecurity/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/tokensecurity",
+  "jobs_total": 8,
+  "jobs_israel": 3,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Torii",
+  "domain": "toriihq.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "toriihq",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/toriihq/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/toriihq",
+  "jobs_total": 1,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Torq",
+  "domain": "torq.io",
+  "ats_provider": "greenhouse",
+  "ats_token": "torq",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/torq/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/torq",
+  "jobs_total": 32,
+  "jobs_israel": 8,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Transmit Security",
+  "domain": "transmitsecurity.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "transmitsecurity",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/transmitsecurity/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/transmitsecurity",
+  "jobs_total": 13,
+  "jobs_israel": 11,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Travel Booster by Galor",
+  "domain": "travelbooster.com",
+  "ats_provider": "comeet",
+  "ats_token": "37.00B::73B2B6215B11CEC329D73B1CEC73B24270",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/37.00B/positions?token=73B2B6215B11CEC329D73B1CEC73B24270",
+  "ats_confidence": 0.95,
+  "careers_url": "https://travelbooster.com/careers",
+  "jobs_total": 5,
+  "jobs_israel": 5,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Travelier",
+  "domain": "travelier.com",
+  "ats_provider": "comeet",
+  "ats_token": "64.006::46615FE15FED321A6446601A64D322796",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/64.006/positions?token=46615FE15FED321A6446601A64D322796",
+  "ats_confidence": 1.0,
+  "careers_url": "https://travelier.com/careers",
+  "jobs_total": 2,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "TriEye",
+  "domain": "trieye.tech",
+  "ats_provider": "comeet",
+  "ats_token": "A6.00E::6AE2814D5CD5C1AB8140A35706AE2EC22814",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/A6.00E/positions?token=6AE2814D5CD5C1AB8140A35706AE2EC22814",
+  "ats_confidence": 1.0,
+  "careers_url": "https://trieye.tech/careers",
+  "jobs_total": 3,
+  "jobs_israel": 3,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Tulip Interfaces",
+  "domain": "tulip.co",
+  "ats_provider": "greenhouse",
+  "ats_token": "tulip",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/tulip/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/tulip",
+  "jobs_total": 73,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Unit",
+  "domain": "unit.co",
+  "ats_provider": "ashby",
+  "ats_token": "unit",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/unit?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/unit",
+  "jobs_total": 4,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "UVeye",
+  "domain": "uveye.com",
+  "ats_provider": "comeet",
+  "ats_token": "92.00F::29FA7C17971797FBA179753E53E0A7C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/92.00F/positions?token=29FA7C17971797FBA179753E53E0A7C",
+  "ats_confidence": 1.0,
+  "careers_url": "https://uveye.com/careers",
+  "jobs_total": 18,
+  "jobs_israel": 5,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "VAST Data",
+  "domain": "vastdata.com",
+  "ats_provider": "comeet",
+  "ats_token": "43.001::34110453411D4968234168209C31D49",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/43.001/positions?token=34110453411D4968234168209C31D49",
+  "ats_confidence": 1.0,
+  "careers_url": "https://vastdata.com/careers",
+  "jobs_total": 251,
+  "jobs_israel": 37,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Verifone Israel",
+  "domain": "verifone.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "verifone",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/verifone/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://verifone.com/careers",
+  "jobs_total": 41,
+  "jobs_israel": 1,
+  "sources": [
+   "detect_ats sweep5 2026-09-10"
+  ]
+ },
+ {
+  "name": "Viz.ai",
+  "domain": "viz.ai",
+  "ats_provider": "ashby",
+  "ats_token": "viz.ai",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/viz.ai?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.ashbyhq.com/viz.ai",
+  "jobs_total": 13,
+  "jobs_israel": 5,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "Votiro",
+  "domain": "votiro.com",
+  "ats_provider": "ashby",
+  "ats_token": "menlosecurity",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/menlosecurity?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://votiro.com/careers",
+  "jobs_total": 17,
+  "jobs_israel": 1,
+  "sources": [
+   "curated",
+   "careers-page-detection",
+   "verified"
+  ]
+ },
+ {
+  "name": "Voyantis",
+  "domain": "voyantis.ai",
+  "ats_provider": "comeet",
+  "ats_token": "86.00B::68B2742D1600D16020B71A2C2742",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/86.00B/positions?token=68B2742D1600D16020B71A2C2742",
+  "ats_confidence": 1.0,
+  "careers_url": "https://voyantis.ai/careers",
+  "jobs_total": 7,
+  "jobs_israel": 7,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "WalkMe",
+  "domain": "walkme.com",
+  "ats_provider": "lever",
+  "ats_token": "walkme",
+  "ats_feed_url": "https://api.lever.co/v0/postings/walkme?mode=json",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.lever.co/walkme",
+  "jobs_total": 29,
+  "jobs_israel": 8,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "Waterfall Security",
+  "domain": "waterfall-security.com",
+  "ats_provider": "comeet",
+  "ats_token": "C7.009::7C92EB61F241F244611F923E483E482EB63E48",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/C7.009/positions?token=7C92EB61F241F244611F923E483E482EB63E48",
+  "ats_confidence": 1.0,
+  "careers_url": "https://waterfall-security.com/careers",
+  "jobs_total": 5,
+  "jobs_israel": 5,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "We Ankor",
+  "domain": "we-ankor.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "C6.008::6C828B0D901B2036402F783D086C801B20",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/C6.008/positions?token=6C828B0D901B2036402F783D086C801B20",
+  "ats_confidence": 0.95,
+  "careers_url": "https://we-ankor.co.il/careers",
+  "jobs_total": 2,
+  "jobs_israel": 2,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Welo Global",
+  "domain": "weloglobal.com",
+  "ats_provider": "lever",
+  "ats_token": "weloglobal",
+  "ats_feed_url": "https://api.lever.co/v0/postings/weloglobal?mode=json",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.lever.co/weloglobal",
+  "jobs_total": 546,
+  "jobs_israel": 8,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "Wiliot",
+  "domain": "wiliot.com",
+  "ats_provider": "comeet",
+  "ats_token": "F6.003::6F329B2DE6379829B229B2037983E8B3E8B",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/F6.003/positions?token=6F329B2DE6379829B229B2037983E8B3E8B",
+  "ats_confidence": 1.0,
+  "careers_url": "https://wiliot.com/careers",
+  "jobs_total": 22,
+  "jobs_israel": 11,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Faye",
+  "domain": "withfaye.com",
+  "ats_provider": "comeet",
+  "ats_token": "87.00A::78A2D3C1E28025B2043DA078AF14",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/87.00A/positions?token=78A2D3C1E28025B2043DA078AF14",
+  "ats_confidence": 1.0,
+  "careers_url": "https://withfaye.com/careers",
+  "jobs_total": 20,
+  "jobs_israel": 9,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "Wix",
+  "domain": "wix.com",
+  "ats_provider": "smartrecruiters",
+  "ats_token": "Wix2",
+  "ats_feed_url": "https://api.smartrecruiters.com/v1/companies/Wix2/postings?limit=100",
+  "ats_confidence": 1.0,
+  "careers_url": "https://jobs.smartrecruiters.com/Wix2",
+  "jobs_total": 61,
+  "jobs_israel": 29,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "Wiz",
+  "domain": "wiz.io",
+  "ats_provider": "greenhouse",
+  "ats_token": "wizinc",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/wizinc/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/wizinc",
+  "jobs_total": 127,
+  "jobs_israel": 23,
+  "sources": [
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "Wolt Israel",
+  "domain": "wolt.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "woltisrael",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/woltisrael/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/woltisrael",
+  "jobs_total": 50,
+  "jobs_israel": 50,
+  "sources": [
+   "ats-token-bruteforce",
+   "curated",
+   "search-enumeration",
+   "verified"
+  ]
+ },
+ {
+  "name": "ROOMS by Fattal",
+  "domain": "working-rooms.co.il",
+  "ats_provider": "comeet",
+  "ats_token": "0A.002::A02460E1E06280814043C0C460E14043C0CA02",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/0A.002/positions?token=A02460E1E06280814043C0C460E14043C0CA02",
+  "ats_confidence": 0.95,
+  "careers_url": "https://working-rooms.co.il/careers",
+  "jobs_total": 5,
+  "jobs_israel": 5,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "WSC Sports",
+  "domain": "wsc-sports.com",
+  "ats_provider": "comeet",
+  "ats_token": "93.007::39711F3AC5AC539701CB81CB8204FE5C",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/93.007/positions?token=39711F3AC5AC539701CB81CB8204FE5C",
+  "ats_confidence": 1.0,
+  "careers_url": "https://wsc-sports.com/careers",
+  "jobs_total": 3,
+  "jobs_israel": 2,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Xtra Mile - Lifecycle Marketing Agency",
+  "domain": "xtra-mile.co",
+  "ats_provider": "comeet",
+  "ats_token": "A8.007::8A733EA3C9133EA19F54538019F533EA4538",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/A8.007/positions?token=8A733EA3C9133EA19F54538019F533EA4538",
+  "ats_confidence": 0.95,
+  "careers_url": "https://xtra-mile.co/careers",
+  "jobs_total": 5,
+  "jobs_israel": 5,
+  "sources": [
+   "employer-hosts"
+  ]
+ },
+ {
+  "name": "Yotpo",
+  "domain": "yotpo.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "yotpo",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/yotpo/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/yotpo",
+  "jobs_total": 16,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ },
+ {
+  "name": "youappi",
+  "domain": "youappi.com",
+  "ats_provider": "comeet",
+  "ats_token": "C9.00B::9CB448D139630F7272C30F7058239CB3AC2",
+  "ats_feed_url": null,
+  "careers_url": "https://youappi.com/",
+  "ats_confidence": 1.0,
+  "jobs_total": 5,
+  "jobs_israel": 1,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "Zafran Security",
+  "domain": "zafran.io",
+  "ats_provider": "ashby",
+  "ats_token": "zafran-security",
+  "ats_feed_url": "https://api.ashbyhq.com/posting-api/job-board/zafran-security?includeCompensation=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://zafran.io/careers",
+  "jobs_total": 27,
+  "jobs_israel": 8,
+  "sources": [
+   "ats-token-bruteforce",
+   "careers-page-detection",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Zemingo",
+  "domain": "zemingo.com",
+  "ats_provider": "comeet",
+  "ats_token": "80.005::85214850853A342810A85214",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/80.005/positions?token=85214850853A342810A85214",
+  "ats_confidence": 1.0,
+  "careers_url": "https://zemingo.com/careers",
+  "jobs_total": 2,
+  "jobs_israel": 2,
+  "sources": [
+   "curated",
+   "comeet-careers-page",
+   "verified"
+  ]
+ },
+ {
+  "name": "zencity",
+  "domain": "zencity.io",
+  "ats_provider": "comeet",
+  "ats_token": "56.00B::65B262265B1FC7131126220CB62622196C",
+  "ats_feed_url": null,
+  "careers_url": "https://zencity.io/careers",
+  "ats_confidence": 1.0,
+  "jobs_total": 3,
+  "jobs_israel": 1,
+  "sources": [
+   "vc-portfolio-2026-09-11"
+  ]
+ },
+ {
+  "name": "Zenity",
+  "domain": "zenity.io",
+  "ats_provider": "comeet",
+  "ats_token": "19.000::9103660519012202D5024401B3091024403660",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/19.000/positions?token=9103660519012202D5024401B3091024403660",
+  "ats_confidence": 1.0,
+  "careers_url": "https://zenity.io/careers",
+  "jobs_total": 28,
+  "jobs_israel": 13,
+  "sources": [
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Zero Networks",
+  "domain": "zeronetworks.com",
+  "ats_provider": "comeet",
+  "ats_token": "39.00F::93F40B9001BBD49F824FC49F824FC377A",
+  "ats_feed_url": "https://www.comeet.co/careers-api/2.0/company/39.00F/positions?token=93F40B9001BBD49F824FC49F824FC377A",
+  "ats_confidence": 1.0,
+  "careers_url": "https://zeronetworks.com/careers",
+  "jobs_total": 13,
+  "jobs_israel": 8,
+  "sources": [
+   "careers-page-detection",
+   "comeet-careers-page",
+   "curated",
+   "verified"
+  ]
+ },
+ {
+  "name": "Zscaler",
+  "domain": "zscaler.com",
+  "ats_provider": "greenhouse",
+  "ats_token": "zscaler",
+  "ats_feed_url": "https://boards-api.greenhouse.io/v1/boards/zscaler/jobs?content=true",
+  "ats_confidence": 1.0,
+  "careers_url": "https://job-boards.greenhouse.io/zscaler",
+  "jobs_total": 363,
+  "jobs_israel": 4,
+  "sources": [
+   "curated",
+   "ats-token-bruteforce",
+   "verified"
+  ]
+ }
+]
